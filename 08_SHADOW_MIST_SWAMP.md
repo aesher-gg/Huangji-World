@@ -8,36 +8,49 @@
 
 ## 🏞️ I. Gambaran Umum Wilayah
 
-Rawa-rawa berlumpur yang selalu ditutupi kabut tebal beracun. Wilayah ini kaya akan tanaman obat beracun, binatang berbisa, dan bahan kimia alami yang digunakan oleh para master racun dan pengguna jurus pergerakan senyap.
+Rawa-rawa berlumpur yang selalu ditutupi kabut tebal beracun. Wilayah ini kaya akan tanaman obat beracun dan binatang berbisa.
 
 * **Qi Density Modifier**: `+30% Efektivitas Racun & Pergerakan Senyap`
 * **Populasi Wilayah**: ± 18 Juta Jiwa
-* **Kota Utama**: Kota Teratai Hitam & Desa Panggung Kayu
 
 ---
 
-## 📍 II. Lokasi Utama & Poin Penting (PoI)
+## 📍 II. Lokasi, Sub-Wilayah & NPC Terperinci
 
 ### 1. Kota Teratai Hitam (Black Lotus City)
 Kota panggung kayu raksasa yang dibangun di atas rawa berbahaya.
-* **Pasar Racun Teratai**: Tempat jual beli racun, penawar racun, dan serangga bisa.
-
-### 2. Rawa Seribu Ular (Thousand Serpents Swamp)
-Habitat spirit beast berbisa dan tanaman karnivora.
-* **Bahaya Alam Hardcore**: Udara kabut *Toxic Mist Decay*. Berada di rawa tanpa *Pil Penawar Racun Rawa* memberikan debuff **Poison Damage 5 HP per Turn & Stamina Drain +20%**.
-
----
-
-## 👥 III. Daftar NPC Utama Rawa Kabut Racun
-
 | Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Lady Venom Poison** | Pemimpin Sekte Racun Bayangan | 190 | Void Transformation, Early | **72.000** | *Kabut Racun Teratai Hitam* — Menyebarkan racun melumpuhkan organ dalam | Anggun, berbahaya, licik, sangat berhati-hati |
-| **Guru Langkah Wu Ying** | Kepala Perguruan Langkah Kabut | 110 | Nascent Soul, Early | **21.000** | *Langkah Bayangan Tanpa Jejak* — Menghilang di dalam kabut tanpa suara | Misterius, cepat, tidak pernah menampakkan wajah |
+| **Lady Venom Poison** | Pemimpin Sekte Racun Bayangan | 190 | Void Transformation, Early | **72.000** | *Kabut Racun Teratai Hitam* | Anggun, berbahaya, licik |
+| **Guru Langkah Wu Ying** | Kepala Perguruan Langkah Kabut | 110 | Nascent Soul, Early | **21.000** | *Langkah Bayangan Tanpa Jejak* | Misterius, tidak pernah menampakkan wajah |
+
+### 2. Desa Panggung Kayu (Stilt Wood Village — 90 Li dari Teratai Hitam)
+Desa nelayan pemburu lintah rawa dan penangkap katak beracun.
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Pemburu Rawa Old Wu** | Tetua Desa Panggung | 58 | Qi Gathering, Peak | **200** | *Tombak Bambu Penangkap Katak* | Ramah, berpengalaman |
+
+### 3. Desa Teratai Kelabu (Grey Lotus Village — 180 Li dari Teratai Hitam)
+Desa pemudidaya herba teratai beracun.
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Master Teratai Wu Lin** | Ahli Racikan Racun | 50 | Foundation, Mid | **750** | *Ramuan Penawar Kelabu* | Teliti, pendiam |
+
+### 4. Reruntuhan Kuil Racun Purba (Ancient Poison Temple Ruins — 320 Li dari Teratai Hitam)
+Kuil kuno penangan racun purba tempat ditemukannya resep racun terlarang.
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Pertape Racun Lao Wu** | Penjaga Kuil Reruntuhan | 125 | Nascent Soul, Early | **12.500** | *Perisai Kabut Racun* | Penyendiri, tegas |
+
+### 5. Markas Pembunuh Kabut Rawa (Mist Assassin Hideout — Pohon Bakau Rawa)
+Persembunyian agen pembunuh bayaran kota rawa.
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Kepala Pembunuh Shadow Venom** | Pemimpin Eksekutor | 42 | Foundation, Peak | **1.000** | *Tebasan Pisau Beracun* | Kejam, bertindak tanpa suara |
 
 ---
 
-## 🛡️ IV. Faksi, Perguruan & Sekte Lokal
+## ☣️ III. Area Terlarang & Bahaya Hardcore Lingkungan
 
-* **Sekte Racun Bayangan**: Penguasa rawa racun.
-* **Perguruan Langkah Kabut**: Perguruan gerakan bayangan.
+### ☣️ Rawa Seribu Ular (Thousand Serpents Swamp — Area Terlarang)
+* **Bahaya Alam Hardcore**: Udara kabut *Toxic Mist Decay*. Berada di rawa tanpa *Pil Penawar Racun Rawa* memberikan debuff **Poison Damage 5 HP per Turn & Stamina Drain +20%**.

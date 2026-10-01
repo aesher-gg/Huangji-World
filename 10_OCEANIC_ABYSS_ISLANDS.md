@@ -8,35 +8,49 @@
 
 ## 🏞️ I. Gambaran Umum Wilayah
 
-Gugusan ribuan pulau yang tersebar di samudra luas tak bertepi. Wilayah ini kaya akan sumber daya laut, mutiara qi, dan kapal perang spiritual tempat berkumpulnya para nelayan, bajak laut, dan pengembara laut.
+Gugusan ribuan pulau di samudra luas tak bertepi yang kaya akan sumber daya laut dan mutiara Qi.
 
 * **Qi Density Modifier**: `+25% Pertarungan Air & Pengendalian Gelombang`
 * **Populasi Wilayah**: ± 35 Juta Jiwa
-* **Kota Utama**: Pelabuhan Mutiara Agung & Kota Pulau Karang
 
 ---
 
-## 📍 II. Lokasi Utama & Poin Penting (PoI)
+## 📍 II. Lokasi, Sub-Wilayah & NPC Terperinci
 
 ### 1. Pelabuhan Mutiara Agung (Grand Pearl Harbor)
-Pelabuhan terbesar tempat pembuatan kapal layar spiritual dan perdagangan mutiara qi.
-
-### 2. Palung Naga Laut (Sea Dragon Abyss)
-Jurang lautan dalam tempat bersemayamnya spirit beast laut raksasa.
-* **Bahaya Alam Hardcore**: Tekanan *Abyssal Ocean Pressure*. Menyelam tanpa *Pill Pernapasan Air* mengurangi **Stamina 10% per Turn & HP -10 per Turn**.
-
----
-
-## 👥 III. Daftar NPC Utama Kepulauan Palung Samudra
-
+Pelabuhan terbesar tempat pembuatan kapal layar spiritual dan lelang mutiara Qi.
 | Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Lord Hai Long** | Pemimpin Sekte Mutiara Samudra | 270 | Void Transformation, Mid | **79.000** | *Tsunami Sembilan Gelombang* — Mengangkat gelombang raksasa menghancurkan armada | Gagah, tegas, penyabar, menyukai ketertiban laut |
-| **Kapten Wave Breaker** | Kepala Perguruan Gelombang Pasang | 135 | Nascent Soul, Early | **26.000** | *Tebasan Gelombang Pemecah Karang* — Tebasan tombak penghancur perahu | Pemberani, menyukai petualangan laut, jujur |
+| **Lord Hai Long** | Pemimpin Sekte Mutiara Samudra | 270 | Void Transformation, Mid | **79.000** | *Tsunami Sembilan Gelombang* | Gagah, tegas, penyabar |
+| **Kapten Wave Breaker** | Kepala Perguruan Gelombang Pasang | 135 | Nascent Soul, Early | **26.000** | *Tebasan Gelombang Pemecah Karang* | Pemberani, menyukai petualangan |
+
+### 2. Kota Pulau Karang (Coral Island City — 150 Li dari Pelabuhan)
+Kota perhentian kapal dagang di tengah samudra.
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Kapten Karang Hai Biao** | Pengawas Dermaga Karang | 49 | Foundation, Mid | **750** | *Tombak Sirip Hiu* | Jujur, keras |
+
+### 3. Desa Nelayan Mutiara (Pearl Fisher Village — 280 Li dari Pelabuhan)
+Desa penyelam mutiara Qi laut dalam.
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Penyelam Old Hai** | Tetua Nelayan Mutiara | 65 | Qi Gathering, Peak | **200** | *Tusukan Harpun Laut* | Sederhana, ramah |
+
+### 4. Reruntuhan Istana Naga Laut (Sea Dragon Palace Ruins — 450 Li dari Pelabuhan)
+Makam raja naga laut purba yang dikelilingi pusaran air berarus kencang.
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Pertape Laut Lao Hai** | Penjaga Reruntuhan Istana | 145 | Nascent Soul, Mid | **18.750** | *Perisai Gelombang Samudra* | Waspada, penyendiri |
+
+### 5. Markas Bajak Laut Samudra Hitam (Black Ocean Pirate Hideout — Pulau Karang Gelap)
+Armada perompak kapal dagang mutiara qi.
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Laksamana Bajak Sea Fiend** | Pemimpin Armada Bajak | 47 | Foundation, Peak | **1.000** | *Tebasan Pedang Samudra Hitam* | Kejam, bernafsu pada harta |
 
 ---
 
-## 🛡️ IV. Faksi, Perguruan & Sekte Lokal
+## ☣️ III. Area Terlarang & Bahaya Hardcore Lingkungan
 
-* **Sekte Mutiara Samudra**: Penguasa terkuat samudra.
-* **Perguruan Gelombang Pasang**: Perguruan beladiri laut.
+### 🌊 Palung Naga Laut (Sea Dragon Abyss — Area Terlarang)
+* **Bahaya Alam Hardcore**: Tekanan *Abyssal Ocean Pressure*. Menyelam tanpa *Pill Pernapasan Air* mengurangi **Stamina 10% per Turn & HP -10 per Turn**.
