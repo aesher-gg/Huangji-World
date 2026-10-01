@@ -47,5 +47,6 @@ Data Karakter Baru Saya:
 * 🌱 **`17_GARDENING_SYSTEM.md`**: Sistem Pertanian Spiritual & Kebun Herbal.
 * 🐾 **`18_TAMING_SYSTEM.md`**: Sistem Penjinakan & Companion Spirit Beast.
 * 🧪 **`19_ALCHEMY_FORGING_ARRAY_SYSTEM.md`**: Alkimia, Tempa, & Formasi Segel.
-* 🏯 **`20_SEKTE_...` s/d `38_...`**: Modul individual Sekte, Perguruan, & Akademi.
+* 🏯 **`20_SEKTE_...` s/d `32_...`**: Modul individual Sekte & Perguruan Beladiri.
+* 🤝 **`33_...` s/d `38_...`**: Modul individual Organisasi Independen (Pembunuh Bayaran, Penjual Racun, Broker Informasi, Rumah Gadai, Serikat Tabib, Aliansi Sanxiu).
 * 🎲 **`39_CUSTOM_EVENTS.md`** - **`42_CUSTOM_TECHNIQUES.md`**: Modul Kustom & Event.

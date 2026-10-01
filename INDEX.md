@@ -33,6 +33,20 @@
 | **22** | `22_SEKTE_PETIR_UNGU.md` | Detail Sekte Petir Ungu. | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/22_SEKTE_PETIR_UNGU.md` |
 | **23** | `23_PERGURUAN_TEMPA_GUNTUR.md` | Detail Perguruan Tempa Guntur. | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/23_PERGURUAN_TEMPA_GUNTUR.md` |
 | **24** | `24_AKADEMI_KEKAISARAN_HUANGJI.md` | Detail Akademi Kekaisaran Huangji. | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/24_AKADEMI_KEKAISARAN_HUANGJI.md` |
+| **25** | `25_SEKTE_TUNGKU_API_MERAH.md` | Detail Sekte Tungku Api Merah. | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/25_SEKTE_TUNGKU_API_MERAH.md` |
+| **26** | `26_PERGURUAN_TINJU_LAVA.md` | Detail Perguruan Tinju Lava. | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/26_PERGURUAN_TINJU_LAVA.md` |
+| **27** | `27_SEKTE_ISTANA_ES_ABADI.md` | Detail Sekte Istana Es Abadi. | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/27_SEKTE_ISTANA_ES_ABADI.md` |
+| **28** | `28_PERGURUAN_PEDANG_EMBUN.md` | Detail Perguruan Pedang Embun. | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/28_PERGURUAN_PEDANG_EMBUN.md` |
+| **29** | `29_SEKTE_BAYANGAN_JIWA.md` | Detail Sekte Bayangan Jiwa. | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/29_SEKTE_BAYANGAN_JIWA.md` |
+| **30** | `30_PERGURUAN_BILAH_HITAM.md` | Detail Perguruan Bilah Hitam. | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/30_PERGURUAN_BILAH_HITAM.md` |
+| **31** | `31_SEKTE_BENTENG_PASIR.md` | Detail Sekte Benteng Pasir. | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/31_SEKTE_BENTENG_PASIR.md` |
+| **32** | `32_PERGURUAN_PANAH_OASE.md` | Detail Perguruan Panah Oase. | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/32_PERGURUAN_PANAH_OASE.md` |
+| **33** | `33_PERKUMPULAN_PISAU_SUNYI_HUANGJI.md` | Detail Perkumpulan Pisau Sunyi (Pembunuh Bayaran). | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/33_PERKUMPULAN_PISAU_SUNYI_HUANGJI.md` |
+| **34** | `34_KELOMPOK_RACUN_BAYANGAN.md` | Detail Kelompok Racun Bayangan (Pasar Gelap Racun). | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/34_KELOMPOK_RACUN_BAYANGAN.md` |
+| **35** | `35_PAVILIUN_SERIBU_BISIK.md` | Detail Paviliun Seribu Bisik (Broker Informasi). | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/35_PAVILIUN_SERIBU_BISIK.md` |
+| **36** | `36_RUMAH_GADAI_GIOK_SEJUK.md` | Detail Rumah Gadai Giok Sejuk (Pegadaian & Bank). | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/36_RUMAH_GADAI_GIOK_SEJUK.md` |
+| **37** | `37_BALAI_TABIB_PENGEMBARA_HUANGJI.md` | Detail Balai Tabib Pengembara (Serikat Medis). | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/37_BALAI_TABIB_PENGEMBARA_HUANGJI.md` |
+| **38** | `38_PERSEKUTUAN_SANXIU_BEBAS.md` | Detail Persekutuan Sanxiu Bebas (Aliansi Sanxiu). | `https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/38_PERSEKUTUAN_SANXIU_BEBAS.md` |
 
 ---
 
