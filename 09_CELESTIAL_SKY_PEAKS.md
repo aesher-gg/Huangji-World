@@ -1,24 +1,42 @@
-# 09. Puncak Langit Surgawi (Celestial Sky Peaks) — Huangji-World
+# 🏔️ 09. Puncak Langit Surgawi (Celestial Sky Peaks) — Huangji-World
 
 > **Status File**: Modul Lore Wilayah (Elemen Angin & Udara)
 > **Versi**: 3.0 (Huangji Core Edition)
+> **Spesialisasi Wilayah**: Kecepatan Gerak, Tebasan Pedang Angin, & Penerbangan Qi
 
 ---
 
-## 🏔️ 1. Deskripsi Wilayah
+## 🏞️ I. Gambaran Umum Wilayah
 
-Puncak-puncak gunung menjulang melampaui awan tempat Qi angin berhembus kencang. Tempat bertapa favorit bagi para ahli pedang dan penerbang qi.
+Puncak-puncak gunung terjal yang menjulang melampaui lapisan awan. Tempat berhembusnya badai angin tajam yang menguji kecepatan, keseimbangan, dan ketajaman jurus pedang para kultivator.
 
----
-
-## 📍 2. Lokasi Utama & Kota
-
-1. **Kota Di Atas Awan (Cloudreach City)**: Kota melayang yang ditopang oleh array angin kuno.
-2. **Anjungan Pedang Angin**: Tempat ujian bagi kultivator pedang.
+* **Qi Density Modifier**: `+30% Kecepatan Gerak & Damage Tebasan Pedang`
+* **Populasi Wilayah**: ± 24 Juta Jiwa
+* **Kota Utama**: Kota Di Atas Awan (Cloudreach City)
 
 ---
 
-## 🛡️ 3. Perguruan & Sekte Lokal
+## 📍 II. Lokasi Utama & Poin Penting (PoI)
 
-* **Sekte Pedang Awan (Cloudblade Sect)**: Sekte pedang ternama berkecepatan tinggi.
-* **Perguruan Kepak Angin (Windwing Academy)**: Perguruan ilmu pergerakan cepat dan gliding.
+### 1. Kota Di Atas Awan (Cloudreach City)
+Kota melayang yang ditopang oleh *Array Angin Kuno*. Pusat pelatihan teknik penerbangan Qi.
+
+### 2. Anjungan Pedang Angin (Windblade Platform)
+Anjungan batu tebing tempat ujian tanding antar ahli pedang.
+* **Bahaya Alam Hardcore**: Badai *Galeforce Blade Wind*. Bertarung di anjungan tanpa *Jubah Penyeimbang Qi* memiliki **peluang 15% terlempar dari tebing (Damage 50 HP)**.
+
+---
+
+## 👥 III. Daftar NPC Utama Puncak Langit Surgawi
+
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sovereign Feng Yun** | Pemimpin Sekte Pedang Awan | 250 | Void Transformation, Peak | **83.000** | *Tebasan Tiga Ribu Awan* — Serangan pedang berkecepatan cahaya | Bebas, menyukai arak, santai, tajam saat bertarung |
+| **Master Wings Yu Tian** | Kepala Perguruan Kepak Angin | 125 | Nascent Soul, Mid | **27.000** | *Kepak Angin Melintasi Langit* — Terbang cepat tanpa bantuan pedang | Lincah, ceria, suka menguji kelincahan murid |
+
+---
+
+## 🛡️ IV. Faksi, Perguruan & Sekte Lokal
+
+* **Sekte Pedang Awan**: Sekte pedang angin nomor satu.
+* **Perguruan Kepak Angin**: Perguruan gerakan terbang & gliding.
