@@ -8,7 +8,7 @@
 
 ## 🧭 1. Filosofi Sistem
 
-Setiap "Hukum" (Law) adalah jalur kultivasi berbeda dengan sumber daya berbeda (Qi Murni, Qi Petir, Qi Api Vulkanik, dll.), tetapi **semua Hukum tunduk pada satu Formula Batas Qi (Qi Cap Formula)** yang sama, supaya tidak ada jalur yang overpowered dibanding yang lain.
+Setiap "Hukum" (Law) adalah jalur kultivasi berbeda dengan sumber daya berbeda (Qi Murni, Qi Petir Ungu, Qi Api Vulkanik, Qi Akar Kayu, dll.), tetapi **semua Hukum tunduk pada satu Formula Batas Qi (Qi Cap Formula)** yang sama, supaya tidak ada jalur yang overpowered dibanding yang lain.
 
 **AI GM WAJIB menolak** klaim kekuatan/qi/item yang melampaui batas formula di bawah ini — tanpa pengecualian, tanpa "power creep" naratif.
 
@@ -45,13 +45,62 @@ Contoh: Golden Core Puncak = 2.500 × 2,0 = **5.000 poin Qi maksimum**.
 
 ---
 
-## 🔐 3. Asal-Usul Hukum (Law Origin) — WAJIB SEBELUM APAPUN
+## 🔐 3. Daftar Hukum Kultivasi Resmi Huangji-World
 
-| Jalur Asal-Usul | Syarat Sah | Contoh Tidak Sah (Ditolak) |
-|---|---|---|
-| **1. Guru (Master/Mentor)** | Harus ada NPC guru yang sudah diperkenalkan & berinteraksi lewat adegan pengajaran nyata. | Tiba-tiba mengaku punya guru Hukum Petir tanpa pernah ada di narasi. |
-| **2. Manual/Kitab Pusaka** | Kitab/manual harus sudah ada di inventory karakter lewat cara yang sah dan tercatat. | Mengaku punya kitab rahasia tepat sebelum terobosan. |
-| **3. Pencerahan (Genuine Enlightenment)** | Hanya bisa dipicu **oleh AI GM** setelah Insight Point terkumpul cukup. | Mengaku tiba-tiba tercerahkan di tengah pertarungan tanpa proses insight. |
+### A. 🌿 Hukum Akar Kayu Suci (*Immortal Woodroot Law*)
+* **Sumber Daya**: **Qi Kayu Vitalitas**, diserap dari pepohonan purba dan herba spiritual.
+* **Mekanik Unik**: Efisiensi berkebun (*Gardening*) +50%, kecepatan pemulihan luka +20%.
+* **Sekte Utama**: Sekte Akar Kayu Abadi (`20_SEKTE_AKAR_KAYU_ABADI.md`).
+
+### B. ⚡ Hukum Inti Petir Ungu (*Purple Lightning Core Law*)
+* **Sumber Daya**: **Qi Petir Ungu**, dialirkan melalui pembuluh darah dan tulang.
+* **Mekanik Unik**: Kecepatan gerak +30%, damage serangan Petir +25%. Imun efek Paralysis ringan.
+* **Sekte Utama**: Sekte Petir Ungu (`22_SEKTE_PETIR_UNGU.md`).
+
+### C. 🔥 Hukum Tungku Api Merah (*Crimson Furnace Law*)
+* **Sumber Daya**: **Qi Api Vulkanik**, dibakar di Dantian sebagai energi penyulingan.
+* **Mekanik Unik**: Efisiensi meracik Alkimia +40%, serangan fisik memicu efek Burn.
+* **Sekte Utama**: Sekte Tungku Api Merah (`25_SEKTE_TUNGKU_API_MERAH.md`).
+
+### D. ❄️ Hukum Istana Es Abadi (*Eternal Frost Palace Law*)
+* **Sumber Daya**: **Qi Es Kristal**, memadatkan energi pembeku di meridian.
+* **Mekanik Unik**: Perisai Qi Es +30% lebih tebal, serangan memicu efek Freeze.
+* **Sekte Utama**: Sekte Istana Es Abadi (`27_SEKTE_ISTANA_ES_ABADI.md`).
+
+### E. 👑 Hukum Tahta Emas Huangji (*Huangji Golden Throne Law*)
+* **Sumber Daya**: **Qi Kekaisaran Emas**, dipancarkan melalui wibawa kepemimpinan.
+* **Mekanik Unik**: Aura Auric Pressure (menekan Damage musuh di bawah ranah sebesar -20%).
+* **Akademi / Faksi**: Akademi Kekaisaran Huangji (`24_AKADEMI_KEKAISARAN_HUANGJI.md`).
+
+### F. 🏜️ Hukum Benteng Pasir Emas (*Golden Sand Fortress Law*)
+* **Sumber Daya**: **Qi Pasir & Tanah**, memadatkan pertahanan dinding cadas.
+* **Mekanik Unik**: HP Max +40%, Perisai Pasir menyerap 30% damage serangan.
+* **Sekte Utama**: Sekte Benteng Pasir (`31_SEKTE_BENTENG_PASIR.md`).
+
+### G. 💀 Hukum Bayangan Jiwa Kelabu (*Desolate Soul Shadow Law*)
+* **Sumber Daya**: **Qi Jiwa & Kegelapan**, mengendalikan rangka tulang dan energi roh.
+* **Mekanik Unik**: Memanggil boneka tulang (*bone puppetry*), Damage serangan Jiwa +35%.
+* **Sekte Utama**: Sekte Bayangan Jiwa (`29_SEKTE_BAYANGAN_JIWA.md`).
+
+### H. ☣️ Hukum Racun Teratai Hitam (*Black Lotus Poison Law*)
+* **Sumber Daya**: **Qi Racun & Kabut**, menyebarkan miasma beracun.
+* **Mekanik Unik**: Imun racun biasa & sedang, serangan memicu Poison Damage bertahap.
+* **Sekte Utama**: Sekte Racun Bayangan (`33_SEKTE_RACUN_BAYANGAN.md`).
+
+### I. 🏔️ Hukum Pedang Awan (*Cloudblade Law*)
+* **Sumber Daya**: **Qi Angin Tajam**, memfokuskan kecepatan tebasan pedang.
+* **Mekanik Unik**: Kecepatan tebasan pedang +35%, peluang melarikan diri (Escape) +20%.
+* **Sekte Utama**: Sekte Pedang Awan (`35_SEKTE_PEDANG_AWAN.md`).
+
+### J. 🌊 Hukum Mutiara Samudra (*Ocean Pearl Law*)
+* **Sumber Daya**: **Qi Samudra & Air**, mengendalikan pusaran air dan mutiara qi.
+* **Mekanik Unik**: Pertarungan di atas/dalam air +35% damage, imun tekanan kedalaman laut.
+* **Sekte Utama**: Sekte Mutiara Samudra (`37_SEKTE_MUTIARA_SAMUDRA.md`).
+
+### K. 🗡️ Hukum Custom Resmi: Hukum Pisau Sunyi (*Silent Blade Law*)
+* **Sumber Daya**: **Qi Pembunuh Senyap**, menyerap fokus eksekusi kontrak.
+* **Mekanik Unik**: +10% HitChance selama kontrak resmi masih aktif.
+* **Organisasi**: Perkumpulan Pisau Sunyi (`33_PERKUMPULAN_PISAU_SUNYI_HUANGJI.md`).
 
 ---
 

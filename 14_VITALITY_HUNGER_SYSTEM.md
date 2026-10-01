@@ -8,7 +8,7 @@
 
 ## 0. Filosofi Sistem
 
-Sama seperti Qi tunduk pada `QiCap` dan harga tunduk pada `FinalPrice`, HP (Vitalitas) dan rasa lapar juga tunduk pada formula tetap. Tiap Hukum kultivasi punya karakter HP berbeda sesuai filosofinya, dan tiap Realm punya ketahanan lapar berbeda.
+Sama seperti Qi tunduk pada `QiCap` dan harga tunduk pada `FinalPrice`, HP (Vitalitas) dan rasa lapar juga tunduk pada formula tetap. Tiap Hukum kultivasi resmi Huangji-World memiliki karakter HP berbeda sesuai filosofinya, dan tiap Realm punya ketahanan lapar berbeda.
 
 ### Aturan Emas Anti-Cheat Vitalitas & Kelaparan
 - HP TIDAK BOLEH dideklarasikan sepihak oleh player — dihitung AI GM lewat formula `HP(realm, stage, law)`.
@@ -28,15 +28,21 @@ K_HP = 0,4 (Konstanta Vitalitas Universal)
 HP(realm, stage, law) = HPBase(realm, stage) × LawHPMultiplier(law)
 ```
 
-### Law HP Multiplier
-| Hukum | LawHPMultiplier | Alasan Filosofis |
+### Law HP Multiplier Resmi Huangji-World
+
+| Hukum Kultivasi Resmi | LawHPMultiplier | Alasan Filosofis & Karakteristik |
 |---|---|---|
-| Hukum Raga Sejati (Body Tempering) | ×1,5 | Penempaan tubuh — paling tahan banting |
-| Hukum Dao Abadi (Standar) | ×1,0 | Baseline — seimbang |
-| Hukum Qi Api Vulkanik | ×0,9 | Agresif dan ofensif, sedikit lebih rapuh |
-| Hukum Gu Karma | ×0,7 | Trade-off "kekuatan besar, harga mahal" |
-| Hukum Bayangan Jiwa Kelabu | ×0,75 | Berbasis jiwa, rapuh secara raga |
-| Hukum Pisau Sunyi (Custom) | ×0,8 | Presisi eksekutor — cukup tangguh |
+| **Hukum Akar Kayu Suci** | ×1,4 | Energi vitalitas kayu melimpah — sangat tahan banting & cepat pulih |
+| **Hukum Benteng Pasir Emas** | ×1,5 | Penempaan dinding cadas — pertahanan fisik terkuat |
+| **Hukum Inti Petir Ungu** | ×1,0 | Baseline serangan kilat — seimbang |
+| **Hukum Tungku Api Merah** | ×0,9 | Agresif ofensif, sedikit lebih rapuh |
+| **Hukum Istana Es Abadi** | ×1,1 | Perisai kristal es — padat defensif |
+| **Hukum Tahta Emas Huangji** | ×1,2 | Kepemimpinan elit istana — fisik tangguh berwibawa |
+| **Hukum Bayangan Jiwa Kelabu** | ×0,75 | Berbasis jiwa/tulang — rapuh secara raga |
+| **Hukum Racun Teratai Hitam** | ×0,7 | Racun miasma — trade-off pertahanan demi racun mematikan |
+| **Hukum Pedang Awan** | ×0,85 | Kecepatan angin — fleksibel & lincah |
+| **Hukum Mutiara Samudra** | ×1,15 | Energi cairan samudra — regeneratif |
+| **Hukum Pisau Sunyi** | ×0,8 | Presisi eksekutor — tangguh namun bukan tanky |
 
 ---
 
