@@ -1,67 +1,88 @@
-# 💰 13. Economy System — Huangji-World
+# 💰 Huangji-World — Sistem Ekonomi & Transaksi (Economy & Pricing System)
 
-> **Status File**: Modul Utama Sistem Ekonomi & Transaksi
-> **Versi**: 3.0 (Huangji Core Edition)
-> **Rujukan Silang**: `01_WORLD_OVERVIEW_AND_CAPITAL.md`, `10_ECONOMY_SYSTEM.md` (inggo-alvn reference), `ECONOMY_ORACLE.md`
-
----
-
-## 🪙 1. Hirarki Mata Uang & Kurs Resmi
-
-Di Benua Huangji, transaksi masyarakat terbagi menjadi dua ranah: **Ranah Fana (Mortal)** dan **Ranah Kultivator**.
-
-### Tabel Konversi Mata Uang
-| Mata Uang | Nilai Konversi | Pengguna & Kegunaan |
-|---|---|---|
-| **Koin Tembaga Fana** | Base Unit (1 Tembaga) | Rakyat biasa, makanan mortal, sewa rumah biasa |
-| **Koin Perak Kekaisaran** | 1 Perak = 1.000 Tembaga | Pedagang menengah, pajak kota, penginapan umum |
-| **Batu Spiritual Rendah (Low-Grade Spirit Stone)** | 1 Low = 100 Perak = 100.000 Tembaga | Mata uang standar kultivator, transaksi herba biasa |
-| **Batu Spiritual Menengah (Mid-Grade Spirit Stone)** | 1 Mid = 100 Low-Grade | Pembelian resep pil, senjata spiritual, sewa kebun |
-| **Batu Spiritual Tinggi (High-Grade Spirit Stone)** | 1 High = 100 Mid-Grade | Lelang artefak langka, pembayaran jimat tingkat tinggi |
-| **Batu Suci Agung Huangji (Top-Grade Sovereign Stone)** | 1 Top = 100 High-Grade | Perdagangan antar-sekte besar & istana kekaisaran |
+> **Modul:** 13 — Economy System
+> **Prinsip:** Anti-Cheat Enforced — Supply-Demand Driven — Terintegrasi dengan Sistem Hukum Kultivasi & World Document
+> **Rujukan Silang:** `12_CULTIVATION_LAW_SYSTEM.md` (Tier material breakthrough), `01_WORLD_OVERVIEW_AND_CAPITAL.md` (jarak wilayah), modul wilayah `02`–`10`
 
 ---
 
-## 🏷️ 2. Katalog Harga Acuan Komoditas, Barang & Jasa
+## 0. Filosofi Sistem
 
-### A. Penginapan & Konsumsi Spiritual
-* **Kamar Penginapan Mortal**: 5 Perak / malam.
-* **Penginapan Spiritual Rendah (Pengumpul Qi)**: 2 Batu Spiritual Rendah / malam.
-* **Penginapan Spiritual Elit (Inti Emas)**: 1 Batu Spiritual Menengah / malam.
-* **Satu Porsi Daging Spirit Beast Rank 1**: 3 Batu Spiritual Rendah (Memulihkan 30% Satiety & +10 Qi).
+Setiap harga di dunia ini — barang, jasa, aset — tunduk pada satu **Formula Harga Dasar** yang sama. AI GM WAJIB menghitung harga lewat formula di bawah ini, bukan menerima klaim harga dari player secara sembarangan.
 
-### B. Herba & Hasil Gardening
-* **Benih Rumput Embun Jiwa**: 1 Batu Spiritual Rendah / 5 benih.
-* **Benih Bunga Ginseng Merah**: 3 Batu Spiritual Rendah / benih.
-* **Pupuk Qi Kayu Murni**: 5 Batu Spiritual Rendah / kantong.
-* **Herba Teratai Es Abadi (Matang)**: 5 Batu Spiritual Menengah / tangkai.
-
-### C. Alkimia (Pill & Ramuan)
-* **Pill Pemulih Qi Rendah (Tier 1)**: 5 Batu Spiritual Rendah / butir.
-* **Pill Penawar Racun Rawa (Tier 1)**: 4 Batu Spiritual Rendah / butir.
-* **Pill Pemulih Vitalitas Darah (Tier 2)**: 2 Batu Spiritual Menengah / butir.
-* **Pill Breakthrough Inti Emas (Tier 3)**: 10 Batu Spiritual Tinggi / butir.
-
-### D. Tempa & Peralatan
-* **Pedang Besi Qi Rendah (Tier 1)**: 20 Batu Spiritual Rendah.
-* **Zirah Sisik Ular Besi (Tier 2)**: 3 Batu Spiritual Menengah.
-* **Tungku Alkimia Temba Purba (Tier 3)**: 15 Batu Spiritual Menengah.
-
-### E. Jasa Khusus
-* **Sewa Kebun Herbal Spiritual (1 Bulan)**: 50 Batu Spiritual Rendah.
-* **Jasa Penjinakan Beast oleh Master**: 1 Batu Spiritual Menengah / ekor.
-* **Biaya Pengiriman Surat Serikat Dagang**: 1 Batu Spiritual Rendah.
+### Aturan Emas Anti-Cheat Ekonomi
+- Harga TIDAK BOLEH dideklarasikan sepihak oleh player — semua harga dihitung AI GM lewat formula.
+- Setiap barang bernilai (Tier 3+ atau Grade Xuan ke atas) WAJIB punya **Item Origin Log** — asal-usul tervalidasi. Tanpa origin, barang tidak bisa dijual/ditukar/dipakai breakthrough.
+- Tidak ada retroactive price edit — semua transaksi bertimestamp, tidak bisa diubah mundur setelah disepakati.
+- Stok toko/NPC terbatas sesuai kapasitas produksi wilayah — tidak bisa membeli borongan barang Tier tinggi tanpa alasan naratif kuat.
+- Tawar-menawar dibatasi ±15% dari harga hasil formula, tidak bisa lebih meski roleplay meyakinkan.
+- Fluktuasi harga akibat supply-demand dibatasi hard cap 0,2×–5,0× dari Grade Value dasar.
 
 ---
 
-## 📜 3. Mekanisme Tawar-Menawar & Pegadaian (Pawnshop)
+## 1. Mata Uang (Currency)
 
-### Tawar-Menawar (Bargaining Check)
-Pemain dapat menawar harga barang di pasar dengan *Persuasion Check* berbasis Wibawa/Insight:
-* **Berhasil (Dadu $\ge 12$)**: Diskon harga **15% - 25%**.
-* **Gagal (Dadu $< 12$)**: Harga tetap atau pedagang menolak melayani.
+| Tingkat | Nama | Nilai Tukar | Kegunaan |
+|---|---|---|---|
+| 1 | Koin Tembaga Fana | 1 (satuan dasar) | Makanan, penginapan murah rakyat biasa |
+| 2 | Koin Perak Kekaisaran | 100 Tembaga | Transaksi umum kota, upah jasa biasa |
+| 3 | Batu Spiritual Rendah (Low) | 100 Perak (10.000 Tembaga) | Transaksi umum kultivator, pil dasar |
+| 4 | Batu Spiritual Menengah (Mid) | 100 Low-Grade | Transaksi sekte, sewa kebun spiritual |
+| 5 | Batu Spiritual Tinggi (High) | 100 Mid-Grade | Lelang artefak langka & jimat tinggi |
+| 6 | Batu Suci Agung Huangji (Top) | 100 High-Grade | Transaksi kekaisaran & sekte elite |
 
-### Rumah Gadai (Pawnshop System)
-Barang bekas atau jarahan pertarungan dapat dijual ke Rumah Gadai resmi Serikat Dagang Sembilan Bintang:
-* **Harga Jual Normal**: **50% dari harga katalog**.
-* **Barang Cacat / Rusak**: **25% dari harga katalog**.
+---
+
+## 2. Struktur Tier & Grade Barang
+
+### 2.1 Tier Barang
+```
+TierBase(n) = 5 × 10^(n−1) Koin Tembaga
+```
+
+| Tier | TierBase (Tembaga) | Konversi Praktis | Contoh Barang |
+|---|---|---|---|
+| 1 | 5 | 5 Tembaga | Ramuan herbal biasa, besi desa |
+| 2 | 50 | 50 Tembaga | Pil pemulih qi ringan, pedang besi |
+| 3 | 500 | 5 Perak | Pil penyembuh luka dalam, pedang bermutu |
+| 4 | 5.000 | 50 Perak | Pil terobosan Foundation, senjata bertuah |
+| 5 | 50.000 | 50 Batu Rendah | Pil terobosan Golden Core, pusaka bertuah |
+| 6 | 500.000 | 500 Batu Rendah | Pil terobosan Nascent Soul, senjata pusaka |
+| 7 | 5.000.000 | 5 Batu Menengah | Pil terobosan Void Transformation |
+| 8 | 50.000.000 | 50 Batu Menengah | Bahan Tribulasi Realm 8, pusaka mitos |
+| 9 | 500.000.000 | 500 Batu Menengah | Bahan Realm 9, artefak dewa |
+
+### 2.2 Grade Kualitas
+```
+GradeValue(tier, grade) = TierBase(tier) × GradeMultiplier(grade)
+```
+Grade Multipliers: Fan-Grade (×0,5) | Huang-Grade (×1,0) | Xuan-Grade (×2,5) | Di-Grade (×6,0) | Tian-Grade (×15,0) | Sheng-Grade (×40,0)
+
+---
+
+## 3. Formula Suplai & Permintaan (Supply-Demand Formula)
+
+```
+FinalPrice = GradeValue(tier, grade) × RegionScarcity × DemandIndex × EventModifier × ConditionModifier
+FinalPrice = clamp(hasil di atas, 0,2 × GradeValue, 5,0 × GradeValue)
+```
+
+RegionScarcity: Native Region (×0,6) | Tetangga Direct (×1,5) | Wilayah Jauh >1.500 li (×3,0) | Zona Sangat Langka (×5,0)
+
+---
+
+## 4. Harga Jasa & Pegadaian
+
+* **Jasa Pengobatan**: 10 Perak (luka ringan) hingga 50 Batu Menengah (Qi Deviation).
+* **Rumah Gadai (Pawnshop)**: Barang Sempurna dijual **50% dari FinalPrice**, Rusak **25%**.
+* **Tawar-menawar**: NPC ramah (±20%), netral (±15%), kaku (±5%), harga mati (0%).
+
+---
+
+## 5. Checklist Validasi AI GM
+
+- [ ] Harga dihitung lewat formula `FinalPrice` (bukan klaim sepihak player)?
+- [ ] Item Origin Log barang yang diperjualbelikan sudah tervalidasi?
+- [ ] Region Scarcity dihitung sesuai jarak wilayah di World Document?
+- [ ] Harga akhir berada dalam batas clamp 0,2×–5,0× Grade Value?
+- [ ] Transaksi tercatat di ledger dengan timestamp?

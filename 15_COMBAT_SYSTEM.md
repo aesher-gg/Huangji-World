@@ -1,26 +1,43 @@
-# ⚔️ 15. Combat System — Huangji-World
+# ⚔️ Huangji-World — Sistem Pertempuran (Combat System)
 
-> **Status File**: Modul Utama Pertarungan Mekanis
-> **Versi**: 3.0 (Huangji Core Edition)
-> **Rujukan Silang**: `00_CORE_RULES_AI_GM.md`, `12_CULTIVATION_LAW_SYSTEM.md`, `14_VITALITY_HUNGER_SYSTEM.md`
-
----
-
-## ⚔️ 1. Fase Pertarungan Turn-Based (3 Turn Phases)
-
-Setiap putaran pertarungan dihitung secara teliti dalam 3 fase:
-
-1. **Fase Inisiatif (Initiative Check)**: Menentukan giliran bertindak berdasarkan `Kecepatan Gerak + Bonus Ranah + Dadu D10`.
-2. **Fase Aksi (Action Phase)**: Karakter dapat memilih 1 Aksi Utama (Serangan Senjata, Jurus Qi, Gunakan Item, Panggil Companion Beast, atau Kabur) + 1 Aksi Pergerakan.
-3. **Fase Resolusi & Damage Check**: AI GM menghitung hasil kerusakan, perisai Qi, dan status efek yang dipicu.
+> **Modul:** 15 — Combat System
+> **Prinsip:** Anti-Cheat Enforced — Turn-Based Resolution — Terintegrasi dengan System HP & QiCap
+> **Rujukan Silang:** `12_CULTIVATION_LAW_SYSTEM.md` (QiCap & Law), `14_VITALITY_HUNGER_SYSTEM.md` (HP & Damage)
 
 ---
 
-## 💥 2. Formula Damage & Pengali Elemen
+## 0. Filosofi Sistem
 
-$$\text{Damage Akhir} = \left[(\text{Base Damage Senjata} + \text{Bonus Qi Diinvestasikan}) \times \text{ElementalMultiplier}\right] - \text{Defense Target}$$
+Pertarungan di dunia ini diselesaikan secara turn-based dengan formula matematis pasti. Tidak ada kemenangan "ajaib" tanpa perhitungan rasional atas Realm, Qi, Senjata, dan Pengali Elemen.
 
-### Tabel Pengali Elemen (Elemental Affinity Chart)
+### Aturan Emas Anti-Cheat Pertempuran
+- Damage dan Hit Chance dihitung AI GM lewat formula — bukan klaim sepihak player.
+- Setiap serangan dan aksi pertarungan bertimestamp dan dicatat di log pertempuran.
+- Mengganti/memasang Equipment saat bertarung membutuhkan 1 Aksi Kecil.
+- Pelarian diri (Escape) tunduk pada pengecekan inisiatif & kecepatan gerak.
+
+---
+
+## 1. Formula Pertempuran Dasar
+
+### 1.1 Hit Chance (Peluang Kena)
+```
+HitChance = clamp(70% + (RealmIndex_penyerang − RealmIndex_bertahan) × 5%, 10%, 95%)
+```
+
+### 1.2 Formula Attack Power & Defense
+```
+AttackPower    = QiCap × 0,15 × LawAttackMultiplier(law) + BaseDamageSenjata
+PassiveDefense = QiCap × 0,05 + BaseDefenseZirah
+```
+
+### 1.3 Formula Damage Akhir (Final Damage)
+$$\text{FinalDamage} = \left[(\text{AttackPower} - \text{PassiveDefense}) \times \text{ElementalMultiplier}\right] - \text{Perisai Qi}$$
+
+---
+
+## 2. Tabel Pengali Elemen (Elemental Affinity Chart)
+
 | Elemen Penyerang | Elemen Bertahan | Pengali Damage | Status Efek Dipicu |
 |---|---|---|---|
 | **Kayu** | Tanah | **1.5x (Super Effective)** | Entangle (Root 1 Turn) |
@@ -32,27 +49,16 @@ $$\text{Damage Akhir} = \left[(\text{Base Damage Senjata} + \text{Bonus Qi Diinv
 
 ---
 
-## 🛡️ 3. Perisai Qi (Qi Barrier) & Mitigasi Damage
+## 3. Perisai Qi (Qi Barrier) & Escape Rules
 
-Kultivator dapat mengaktifkan **Perisai Qi** untuk menyerap damage sebelum mengurangi HP:
-* **Konsumsi Qi**: 1 Poin Qi disalurkan menjadi **2 Poin Perisai Qi**.
-* **Ketahanan Perisai**: Perisai Qi bertahan selama 2 turn atau sampai poin perisai habis diserang.
-
----
-
-## ☣️ 4. Status Efek Pertarungan (Status Effects)
-
-* **Burn (Luka Bakar)**: HP berkurang 10 poin per turn selama 3 turn.
-* **Frozen (Membeku)**: Kecepatan gerak berkurang 50% & Defense berkurang 20%.
-* **Paralysis (Lumpuh Kilat)**: Peluang gagal melakukan aksi sebesar 30% per turn.
-* **Bleeding (Pendarahan)**: HP berkurang 15 poin setiap kali karakter melakukan serangan fisik.
-* **Poison (Keracunan)**: HP & Stamina berkurang 8 poin per turn, regenerasi mati.
-
----
-
-## 🏃‍♂️ 5. Aturan Melarikan Diri (Escape Rules)
-
-Pemain dapat mencoba melarikan diri dari pertarungan:
+* **Perisai Qi**: 1 Poin Qi diinvestasikan menjadi **2 Poin Perisai Qi**.
 * **Formula Escape Check**: `Kecepatan Gerak Pemain + D20` vs `Kecepatan Gerak Musuh + D20`.
-* **Jika Berhasil**: Pertarungan berakhir, pemain berpindah ke lokasi terdekat dengan konsumsi Stamina 20 poin.
-* **Jika Gagal**: Pemain kehilangan giliran aksi & menerima serangan bebas (Opportunity Attack) dari musuh.
+
+---
+
+## 4. Checklist Validasi AI GM
+
+- [ ] Hit Chance dan Final Damage dihitung dari formula resmi?
+- [ ] Pengali elemen diterapkan dengan benar?
+- [ ] Perisai Qi mengurangi damage sebelum memotong HP?
+- [ ] Log pertarungan bertimestamp dan tidak diedit mundur?

@@ -1,17 +1,30 @@
-# ☯️ 12. Cultivation & Law System — Huangji-World
+# 📜 Huangji-World — Sistem Hukum Kultivasi (Cultivation Laws System)
 
-> **Status File**: Modul Utama Sistem Kultivasi & Hukum
-> **Versi**: 3.0 (Huangji Core Edition)
-> **Prinsip**: Anti-Cheat Enforced — Stable Tier Scaling — Karma-Linked Tribulation
-> **Rujukan Silang**: `00_CORE_RULES_AI_GM.md` (aturan wajib), `13_ECONOMY_SYSTEM.md`, `14_VITALITY_HUNGER_SYSTEM.md`, `15_COMBAT_SYSTEM.md`
+> **Modul:** 12 — Cultivation Law System
+> **Prinsip:** Anti-Cheat Enforced — Stable Tier Scaling — Karma-Linked Tribulation
+> **Rujukan Silang:** `00_CORE_RULES_AI_GM.md` (aturan wajib), `13_ECONOMY_SYSTEM.md` (harga bahan), `14_VITALITY_HUNGER_SYSTEM.md` (HP), `15_COMBAT_SYSTEM.md` (Combat), modul wilayah `01`–`10`
 
 ---
 
-## 🌀 1. Struktur Universal 9 Major Realm (27 Sub-Tier)
+## 🧭 1. Filosofi Sistem
 
-Setiap kultivator di Benua Huangji berkembang melalui **9 Major Realm**, di mana setiap Major Realm memiliki 3 Sub-Stage: **Awal (Early ×1.0)**, **Tengah (Mid ×1.5)**, dan **Puncak (Peak ×2.0)**.
+Setiap "Hukum" (Law) adalah jalur kultivasi berbeda dengan sumber daya berbeda (Qi Murni, Qi Petir, Qi Api Vulkanik, dll.), tetapi **semua Hukum tunduk pada satu Formula Batas Qi (Qi Cap Formula)** yang sama, supaya tidak ada jalur yang overpowered dibanding yang lain.
 
-| # | Major Realm (Universal) | Realm Base (RB) | Qi Cap Awal (×1.0) | Qi Cap Tengah (×1.5) | Qi Cap Puncak (×2.0) |
+**AI GM WAJIB menolak** klaim kekuatan/qi/item yang melampaui batas formula di bawah ini — tanpa pengecualian, tanpa "power creep" naratif.
+
+### Aturan Emas Anti-Cheat
+- Qi/energi karakter tidak boleh melebihi `QiCap(realm, stage)` — dihitung ulang tiap turn oleh AI.
+- Breakthrough (terobosan) HARUS memenuhi 3 syarat sekaligus: bahan minimum, insight/comprehension tervalidasi GM, dan (untuk realm 7+) selamat dari Tribulasi.
+- Tidak ada retroactive edit stat oleh player — semua log qi/item bertimestamp dan tidak bisa diubah mundur.
+- Item/pil hanya boleh menaikkan qi sebatas ±1 tier dari tier user saat ini (material tier matching).
+- Law custom TETAP tunduk pada formula qi cap yang sama — hanya reskin mekanik, bukan reskin batas.
+- **Player TIDAK BOLEH mendeklarasikan sendiri "aku terobosan pakai Hukum X" di saat momen terobosan.** AI GM yang menentukan Hukum/teknik apa yang berlaku, berdasarkan teknik yang benar-benar dilatih/dipraktikkan player sepanjang cerita — dan itu hanya sah jika sudah punya **Asal-Usul Hukum** yang tervalidasi (§3.0). Deklarasi sepihak tanpa asal-usul = otomatis DITOLAK.
+
+---
+
+## 🌀 2. Struktur Realm Universal (9 Major Realm × 3 Stage = 27 Sub-Tier)
+
+| # | Major Realm (Universal) | Realm Base (RB) | Qi Cap Awal (×1,0) | Qi Cap Menengah (×1,5) | Qi Cap Puncak (×2,0) |
 |---|---|---|---|---|---|
 | 1 | **Pemurnian Fana (Mortal Refining)** | 0 | 0 | 0 | 0 |
 | 2 | **Pengumpulan Qi (Qi Gathering)** | 100 | 100 | 150 | 200 |
@@ -23,63 +36,76 @@ Setiap kultivator di Benua Huangji berkembang melalui **9 Major Realm**, di mana
 | 8 | **Penerobosan Tribulasi (Tribulation Crossing) ⚡** | 1.562.500 | 1.562.500 | 2.343.750 | 3.125.000 |
 | 9 | **Kaisar Agung Abadi (Huangji Sovereign)** | 7.812.500 | 7.812.500 | 11.718.750 | 15.625.000 |
 
-### 🔒 Formula Qi Cap Wajib AI GM
-$$\text{QiCap}(\text{realm}, \text{stage}) = \text{RealmBase}(\text{realm}) \times \text{StageMultiplier}(\text{stage})$$
+### 🔒 Formula Qi Cap (WAJIB DIPAKAI AI GM)
+```
+QiCap(realm, stage) = RealmBase(realm) × StageMultiplier(stage)
+```
+
+Contoh: Golden Core Puncak = 2.500 × 2,0 = **5.000 poin Qi maksimum**.
 
 ---
 
-## 🔐 2. Asal-Usul Hukum (Law Origin) & Syarat Breakthrough
+## 🔐 3. Asal-Usul Hukum (Law Origin) — WAJIB SEBELUM APAPUN
 
-Pemain **DILARANG** mendaklarasikan breakthrough atau pergantian Hukum kultivasi secara tiba-tiba tanpa **Law Origin Log** yang sah. Law Origin hanya bisa didapat melalui 3 jalur tervalidasi:
-
-1. **Jalur Guru (Mentor/Master)**: Diajarkan secara bertahap oleh NPC Guru yang terdaftar di narasi cerita.
-2. **Jalur Kitab/Manual Pusaka**: Ditemukan dan tersimpan di inventory pemain sebelum meditasi breakthrough.
-3. **Jalur Pencerahan Hakiki (Genuine Enlightenment)**: Dipicu langsung oleh AI GM saat akumulasi Insight Point mencukupi.
-
-### 🧪 Tabel Syarat Bahan Minimum Breakthrough
-| Breakthrough Realm | Material Utama Minimum | Core Beast Minimum | Insight Points | Syarat Khusus |
-|---|---|---|---|---|
-| **Realm 1 → 2** | 10 Unit Material Tier 1 | 1 Core Beast Tier 1 | 0 | Pembukaan Meridian |
-| **Realm 2 → 3** | 20 Unit Material Tier 2 | 2 Core Beast Tier 2 | 1 | Ujian Ketahanan Fisik |
-| **Realm 3 → 4** | 30 Unit Material Tier 3 | 3 Core Beast Tier 3 | 2 | Pembentukan Inti Dantian |
-| **Realm 4 → 5** | 40 Unit Material Tier 4 | 4 Core Beast Tier 4 | 3 | Pencerahan Jiwa |
-| **Realm 5 → 6** | 50 Unit Material Tier 5 | 5 Core Beast Tier 5 | 4 | Restu Sekte / Ujian Kehampaan |
-| **Realm 6 → 7** | 60 Unit Material Tier 6 | 6 Core Beast Tier 6 | 5 | Trial Kehampaan Suci |
-| **Realm 7 → 8** | 70 Unit Material Tier 7 | 7 Core Beast Tier 7 | 6 | **Tribulasi Petir Wajib** |
-| **Realm 8 → 9** | 80 Unit Material Tier 8 | 8 Core Beast Tier 8 | 8 | **Tribulasi Petir Agung & Mind-Demon** |
+| Jalur Asal-Usul | Syarat Sah | Contoh Tidak Sah (Ditolak) |
+|---|---|---|
+| **1. Guru (Master/Mentor)** | Harus ada NPC guru yang sudah diperkenalkan & berinteraksi lewat adegan pengajaran nyata. | Tiba-tiba mengaku punya guru Hukum Petir tanpa pernah ada di narasi. |
+| **2. Manual/Kitab Pusaka** | Kitab/manual harus sudah ada di inventory karakter lewat cara yang sah dan tercatat. | Mengaku punya kitab rahasia tepat sebelum terobosan. |
+| **3. Pencerahan (Genuine Enlightenment)** | Hanya bisa dipicu **oleh AI GM** setelah Insight Point terkumpul cukup. | Mengaku tiba-tiba tercerahkan di tengah pertarungan tanpa proses insight. |
 
 ---
 
-## 🧬 3. Sistem Tubuh Khusus (10 Special Physiques)
+## 🧪 4. Bahan Minimum Terobosan (Breakthrough Material Floor)
 
-Setiap karakter dapat lahir atau membangkitkan salah satu dari **10 Special Physiques** yang memberikan pengali statistik permanen:
+```
+Bahan Utama Minimum = n × 10 unit material Tier-n
+Inti/Core Minimum   = n unit Core Tier-n
+Insight Point       = WAJIB, didapat dari event naratif
+```
 
-1. **Tubuh Pohon Suci Abadi (Immortal Sacred Tree Physique)**: HP Max +50%, Regenerasi Qi +100% di wilayah Kayu.
-2. **Tubuh Inti Petir Guntur (Thunder Core Physique)**: Imun Paralysis, Damage Petir +40%.
-3. **Tubuh Teratai Api Vulkanik (Volcanic Flame Lotus Physique)**: Efisiensi Alkimia +50%, Imun Burn Damage.
-4. **Tubuh Es Kristal Bintang (Star Frost Crystal Physique)**: Defense +30%, Efek Freeze Damage +25%.
-5. **Tubuh Tulang Kelabu Jiwa (Desolate Bone Soul Physique)**: Damage Serangan Jiwa +35%, Sin Points tidak menambah Karma Modifier.
-6. **Tubuh Benteng Pasir Emas (Golden Sand Fortress Physique)**: HP Max +40%, Perisai Qi +50%.
-7. **Tubuh Kabut Racun Bayangan (Shadow Venom Mist Physique)**: Imun Racun Biasa & Sedang, Stealth Success +30%.
-8. **Tubuh Kepak Angin Langit (Sky Windwing Physique)**: Kecepatan Gerak +40%, Peluang Escape +25%.
-9. **Tubuh Naga Samudra Abadi (Ocean Dragon Physique)**: Imun Tekanan Laut, Damage Air/Gelombang +35%.
-10. **Tubuh Tahta Emas Huangji (Huangji Golden Throne Physique)**: Aura Kepemimpinan (Tekanan Qi pada musuh di bawah ranah -20% Damage musuh).
-
----
-
-## ⚡ 4. Formula Tribulasi Petir & Karma Score
-
-$$\text{Tribulation Damage} = \text{BasePunishment}(\text{realm}) \times \text{KarmaModifier} \times \text{BoltFactor} \times \text{Random}(0.8 - 1.2)$$
-
-* **BasePunishment**: 5% dari `QiCap(realm, Peak)` per bolt.
-* **Karma Score**: `Merit Points - Sin Points`.
-* **KarmaModifier**: $\text{clamp}(1 + \frac{\text{Sin Points} - \text{Merit Points}}{1000}, 0.5, 3.0)$.
-* **BoltFactor**: Minor = 3 Bolts, Major = 5 Bolts, Full = 7 Bolts, Supreme = 9 Bolts.
+| Realm (n) | Bahan Utama Min. | Core Min. | Insight Wajib? |
+|---|---|---|---|
+| 1→2 | 10 unit Tier-1 | 1 Core Tier-1 | Tidak |
+| 2→3 | 20 unit Tier-2 | 2 Core Tier-2 | Ya |
+| 3→4 | 30 unit Tier-3 | 3 Core Tier-3 | Ya |
+| 4→5 | 40 unit Tier-4 | 4 Core Tier-4 | Ya |
+| 5→6 | 50 unit Tier-5 | 5 Core Tier-5 | Ya + Restu Sekte/Guru |
+| 6→7 | 60 unit Tier-6 | 6 Core Tier-6 | Ya + Trial Kehampaan |
+| 7→8 | 70 unit Tier-7 | 7 Core Tier-7 | Ya + **Tribulasi Petir wajib** |
+| 8→9 | 80 unit Tier-8 | 8 Core Tier-8 | Ya + Tribulasi Petir Agung |
 
 ---
 
-## 🧠 5. Ujian Iblis Dalam Jiwa (Mind-Demon Test)
+## 🧬 5. Sistem Tubuh Khusus (10 Special Physiques)
 
-Saat melakukan breakthrough dari Ranah 7 ke atas, kultivator harus menghadapi ilusi Mind-Demon:
-* AI GM menyajikan dilema moral berdasarkan aksi masa lalu pemain (Sin Points).
-* Jika pemain memilih tindakan yang melanggar Hukum Kultivasi miliknya, pemain terkena **Qi Deviation (HP Max -50% & Qi terkunci selama 3 turn)**.
+1. **Tubuh Pohon Suci Abadi**: HP Max +50%, Regenerasi Qi +100% di wilayah Kayu.
+2. **Tubuh Inti Petir Guntur**: Imun Paralysis, Damage Petir +40%.
+3. **Tubuh Teratai Api Vulkanik**: Efisiensi Alkimia +50%, Imun Burn Damage.
+4. **Tubuh Es Kristal Bintang**: Defense +30%, Efek Freeze Damage +25%.
+5. **Tubuh Tulang Kelabu Jiwa**: Damage Serangan Jiwa +35%, Sin Points tidak menambah Karma Modifier.
+6. **Tubuh Benteng Pasir Emas**: HP Max +40%, Perisai Qi +50%.
+7. **Tubuh Kabut Racun Bayangan**: Imun Racun Biasa & Sedang, Stealth Success +30%.
+8. **Tubuh Kepak Angin Langit**: Kecepatan Gerak +40%, Peluang Escape +25%.
+9. **Tubuh Naga Samudra Abadi**: Imun Tekanan Laut, Damage Air/Gelombang +35%.
+10. **Tubuh Tahta Emas Huangji**: Aura Kepemimpinan (-20% Damage musuh di bawah ranah).
+
+---
+
+## ⚡ 6. Tribulasi Petir & Formula Karma Score
+
+```
+Tribulation_Damage = BasePunishment(realm) × KarmaModifier × BoltFactor × Random(0,8–1,2)
+Karma_Score        = Merit_Points − Sin_Points
+KarmaModifier      = clamp(1 + (Sin_Points − Merit_Points) / 1000, 0,5, 3,0)
+```
+
+---
+
+## 🛡️ 7. Checklist Validasi AI GM
+
+- [ ] Hukum/teknik yang dipakai sudah tercatat di **Law Origin Log** karakter?
+- [ ] Qi reported ≤ `QiCap(realm, stage)` saat ini?
+- [ ] Bahan & Core memenuhi tabel minimum §4?
+- [ ] Material tier dalam rentang ±1 dari realm player?
+- [ ] Insight/comprehension sudah divalidasi lewat event naratif?
+- [ ] Untuk realm 7+: Tribulasi sudah dijalankan dengan formula §6?

@@ -1,48 +1,82 @@
-# 🩸 14. Vitality & Hunger System — Huangji-World
+# ❤️ Huangji-World — Sistem Vitalitas (HP) & Kelangsungan Hidup (Hunger System)
 
-> **Status File**: Modul Utama Vitalitas, Luka & Kelaparan
-> **Versi**: 3.0 (Huangji Core Edition)
-> **Rujukan Silang**: `00_CORE_RULES_AI_GM.md`, `12_CULTIVATION_LAW_SYSTEM.md`, `15_COMBAT_SYSTEM.md`
-
----
-
-## 🩸 1. Formula HP & Stamina Maksimum
-
-Kapasitas Kesehatan (HP) dan Daya Tahan (Stamina) pemain dihitung secara otomatis berdasarkan Ranah Kultivasi dan pengali Physique:
-
-$$\text{HP Maksimum} = \left(100 + (\text{Tingkat Ranah} \times 50) + \frac{\text{QiCap}}{10}\right) \times \text{PhysiqueMultiplier}$$
-$$\text{Stamina Maksimum} = 100 + (\text{Tingkat Ranah} \times 25) + \frac{\text{QiCap}}{20}$$
+> **Modul:** 14 — Vitality & Hunger System
+> **Prinsip:** Anti-Cheat Enforced — Law-Specific Scaling — Terintegrasi dengan Sistem Hukum Kultivasi & Ekonomi
+> **Rujukan Silang:** `12_CULTIVATION_LAW_SYSTEM.md` (QiCap basis HP), `13_ECONOMY_SYSTEM.md` (Harga Obat), `15_COMBAT_SYSTEM.md` (FinalDamage)
 
 ---
 
-## 🩺 2. 5 Tingkat Status Kesehatan & Luka (Injury Status)
+## 0. Filosofi Sistem
 
-Kondisi fisik karakter dikategorikan ke dalam 5 status luka berdasarkan persentase sisa HP:
+Sama seperti Qi tunduk pada `QiCap` dan harga tunduk pada `FinalPrice`, HP (Vitalitas) dan rasa lapar juga tunduk pada formula tetap. Tiap Hukum kultivasi punya karakter HP berbeda sesuai filosofinya, dan tiap Realm punya ketahanan lapar berbeda.
 
-| Persentase Sisa HP | Status Luka | Efek & Penalti Mekanis |
+### Aturan Emas Anti-Cheat Vitalitas & Kelaparan
+- HP TIDAK BOLEH dideklarasikan sepihak oleh player — dihitung AI GM lewat formula `HP(realm, stage, law)`.
+- Kerusakan HP (damage) dicatat di log bertimestamp, tidak bisa diedit mundur atau "dilupakan" player.
+- Regenerasi HP di luar batas alami hanya lewat pil/jasa tabib yang tunduk Sistem Ekonomi (`13_ECONOMY_SYSTEM.md`).
+- Status kelaparan dihitung otomatis per jam in-game oleh AI GM, bukan klaim sepihak player.
+- Breakthrough Realm langsung memperbarui HP Cap dan Fasting Multiplier karakter secara otomatis.
+
+---
+
+## 1. Formula HP Universal
+
+```
+HPBase(realm, stage) = QiCap(realm, stage) × K_HP
+K_HP = 0,4 (Konstanta Vitalitas Universal)
+
+HP(realm, stage, law) = HPBase(realm, stage) × LawHPMultiplier(law)
+```
+
+### Law HP Multiplier
+| Hukum | LawHPMultiplier | Alasan Filosofis |
 |---|---|---|
-| **100% - 90%** | **Sempurna (Prima)** | Tidak ada penalti. Regenerasi Stamina normal. |
-| **89% - 70%** | **Luka Ringan** | Damage Fisik & Jurus berkurang **5%**. |
-| **69% - 40%** | **Luka Sedang** | Kecepatan Gerak berkurang **20%**, Konsumsi Qi membengkak **+25%**. |
-| **39% - 15%** | **Luka Parah** | Kecepatan Gerak berkurang **50%**, Damage Fisik & Jurus berkurang **40%**, tidak bisa menggunakan jurus berat. |
-| **14% - 1%** | **Kritis (Pingsan / Sekarat)** | Karakter pingsan atau tidak bisa bertindak. Butuh pertolongan darurat dalam 3 turn atau mengalami kematian fisik. |
+| Hukum Raga Sejati (Body Tempering) | ×1,5 | Penempaan tubuh — paling tahan banting |
+| Hukum Dao Abadi (Standar) | ×1,0 | Baseline — seimbang |
+| Hukum Qi Api Vulkanik | ×0,9 | Agresif dan ofensif, sedikit lebih rapuh |
+| Hukum Gu Karma | ×0,7 | Trade-off "kekuatan besar, harga mahal" |
+| Hukum Bayangan Jiwa Kelabu | ×0,75 | Berbasis jiwa, rapuh secara raga |
+| Hukum Pisau Sunyi (Custom) | ×0,8 | Presisi eksekutor — cukup tangguh |
 
 ---
 
-## 🍚 3. Sistem Kelaparan & Satiety (0% - 100%)
+## 2. Status Kondisi HP & Ambang Bahaya
 
-Indikator Satiety menggambarkan kecukupan nutrisi dan energi tubuh:
-
-* **Satiety 100% - 80% (Kenyang & Prima)**: Regenerasi HP +2% per jam meditasi, Regenerasi Qi normal.
-* **Satiety 79% - 40% (Cukup)**: Kondisi standar tanpa penalti.
-* **Satiety 39% - 15% (Lapar)**: Regenerasi HP & Qi terhenti. Kecepatan gerak -10%.
-* **Satiety 14% - 1% (Kelaparan Parah)**: Malnutrisi Spirit. Stamina Max berkurang 50%.
-* **Satiety 0% (Kelaparan Ekstrem)**: Organ dalam menyusut. HP berkurang **5% per turn** sampai karakter makan atau mati.
-
-### 🥩 Tabel Pemulihan Satiety Makanan Spiritual
-| Makanan / Minuman Spiritual | Pemulihan Satiety | Bonus Tambahan Qi |
+| % HP Tersisa | Status | Efek |
 |---|---|---|
-| **Roti Daging Fana** | +20% Satiety | 0 Qi |
-| **Daging Spirit Beast Rank 1** | +40% Satiety | +15 Qi |
-| **Daging Spirit Beast Rank 2** | +60% Satiety | +50 Qi |
-| **Buah Spirit Emas Matang** | +100% Satiety | +150 Qi & Pemulihan 30 HP |
+| 100%–50% | Sehat (Healthy) | Tidak ada penalti |
+| 49%–20% | Terluka (Wounded) | −10% output Qi, −5% efektivitas serangan |
+| 19%–1% | Kritis (Critical) | −30% output Qi, −20% efektivitas serangan, risiko Qi Deviation |
+| 0% | Pingsan / Qi Deviation | Tak sadarkan diri, WAJIB pertolongan tabib |
+| Di bawah −50% | Kematian | Overkill ekstrem tervalidasi GM |
+
+---
+
+## 3. Sistem Kelaparan (Hunger System)
+
+```
+SatietyMax = 100 poin (universal)
+JamSampaiKosong(realm) = 6 jam × FastingMultiplier(realm)
+```
+
+### Fasting Multiplier per Realm
+| Realm | FastingMultiplier | Waktu Sampai Sangat Lapar |
+|---|---|---|
+| 1 — Pemurnian Fana | ×1,0 | 6 jam |
+| 2 — Pengumpulan Qi | ×2,0 | 12 jam |
+| 3 — Pembentukan Fondasi | ×5,0 | 30 jam (~1,25 hari) |
+| 4 — Pembentukan Inti Emas | ×15,0 | 90 jam (~3,75 hari) |
+| 5 — Melahirkan Jiwa Nascent | ×50,0 | 300 jam (~12,5 hari) |
+| 6 — Transformasi Kehampaan | ×150,0 | 900 jam (~37,5 hari) |
+| 7 — Penyatuan Roh Suci | ×500,0 | 3.000 jam (~4 bulan) |
+| 8 — Penerobosan Tribulasi | ×2.000,0 | 12.000 jam (~1,4 tahun) |
+| 9 — Kaisar Agung Abadi | Tak terbatas | Bi Gu Sempurna (Tidak butuh makan) |
+
+---
+
+## 4. Checklist Anti-Cheat
+
+- [ ] HP dihitung dari formula `HP(realm, stage, law)`, bukan klaim sepihak player?
+- [ ] Damage yang diterima tercatat di log bertimestamp, tidak diedit mundur?
+- [ ] Status kondisi diperbarui otomatis tiap kali HP berubah?
+- [ ] FastingMultiplier sesuai realm karakter saat ini?
