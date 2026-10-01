@@ -68,7 +68,8 @@ JamSampaiKosong(realm) = 6 jam × FastingMultiplier(realm)
 ### Fasting Multiplier per Realm
 | Realm | FastingMultiplier | Waktu Sampai Sangat Lapar |
 |---|---|---|
-| 1 — Pemurnian Fana | ×1,0 | 6 jam |
+| 0 — Fana | ×1,0 | 6 jam |
+| 1 — Pembersihan Tubuh | ×1,0 | 6 jam |
 | 2 — Pengumpulan Qi | ×2,0 | 12 jam |
 | 3 — Pembentukan Fondasi | ×5,0 | 30 jam (~1,25 hari) |
 | 4 — Pembentukan Inti Emas | ×15,0 | 90 jam (~3,75 hari) |

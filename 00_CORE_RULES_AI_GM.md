@@ -49,7 +49,7 @@ Ada tiga jalur input awal — AI harus mengenali dulu jalur mana yang berlaku se
 - Nama karakter
 - Lokasi awal (harus sesuai daftar lokasi yang tersedia di modul-modul regional `01`–`10`)
 
-AI mengambil data dunia dari file-file yang ditautkan (GitHub), bukan dari asumsi/memori bebas. Karakter baru mulai dari statistik dasar realm terendah (Pemurnian Fana) kecuali pemain menyatakan lain dan AI GM memvalidasinya sebagai masuk akal secara naratif.
+AI mengambil data dunia dari file-file yang ditautkan (GitHub), bukan dari asumsi/memori bebas. Karakter baru mulai dari statistik dasar realm terendah (Fana / Realm 0) kecuali pemain menyatakan lain dan AI GM memvalidasinya sebagai masuk akal secara naratif.
 
 ### 1.7 Perhitungan & Pencatatan Ketat
 AI wajib menjaga *track record* akurat untuk:
@@ -164,17 +164,18 @@ Teknik & Kemampuan yang Dikuasai:
 $$\text{QiCap}(\text{realm}, \text{stage}) = \text{RealmBase}(\text{realm}) \times \text{StageMultiplier}(\text{stage})$$
 StageMultiplier: Awal ×1.0 | Tengah ×1.5 | Puncak ×2.0
 
-| # | Major Realm | RealmBase |
+| # | Major Realm (Universal) | RealmBase |
 |---|---|---|
-| 1 | Pemurnian Fana (Mortal Refining) | 0 |
-| 2 | Pengumpulan Qi (Qi Gathering) | 100 |
-| 3 | Pembentukan Fondasi (Foundation Establishment) | 500 |
-| 4 | Pembentukan Inti Emas (Golden Core) | 2.500 |
-| 5 | Melahirkan Jiwa Nascent (Nascent Soul) | 12.500 |
-| 6 | Transformasi Kehampaan (Void Transformation) | 62.500 |
-| 7 | Penyatuan Roh Suci (Sacred Spirit) | 312.500 |
-| 8 | Penerobosan Tribulasi (Tribulation Crossing) ⚡ | 1.562.500 |
-| 9 | Kaisar Agung Abadi (Huangji Sovereign) | 7.812.500 |
+| **0** | **Fana (Mortal Realm)** | 0 |
+| **1** | **Ranah Pembersihan Tubuh (Body Refining Realm)** | 100 |
+| **2** | **Ranah Pengumpulan Qi (Qi Gathering Realm)** | 500 |
+| **3** | **Ranah Fondasi Jiwa (Foundation Establishment Realm)** | 2.500 |
+| **4** | **Ranah Inti Emas (Golden Core Realm)** | 12.500 |
+| **5** | **Ranah Jiwa Nascent (Nascent Soul Realm)** | 62.500 |
+| **6** | **Ranah Formasi Roh (Spirit Formation Realm)** | 312.500 |
+| **7** | **Ranah Transformasi Kehampaan (Void Transformation Realm)** | 1.562.500 |
+| **8** | **Ranah Tribulasi Surgawi (Heavenly Tribulation Realm) ⚡** | 7.812.500 |
+| **9** | **Ranah Kaisar Agung Abadi (Huangji Sovereign Realm)** | 39.062.500 |
 
 ### 3.2 HP & Combat (detail: `14_VITALITY_HUNGER_SYSTEM.md` & `15_COMBAT_SYSTEM.md`)
 $$\text{HP Max} = \left(100 + (\text{Tingkat Ranah} \times 50) + \frac{\text{QiCap}}{10}\right) \times \text{PhysiqueMultiplier}$$
