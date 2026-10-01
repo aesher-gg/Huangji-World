@@ -1,33 +1,49 @@
-# 17. Gardening System — Huangji-World
+# 🌱 17. Gardening System — Huangji-World
 
-> **Status File**: Modul Sistem Pertanian Spiritual & Kebun Herbal
+> **Status File**: Modul Utama Pertanian Spiritual & Kebun Herbal
 > **Versi**: 3.0 (Huangji Core Edition)
+> **Rujukan Silang**: `02_VERDANT_QI_PLAINS.md`, `13_ECONOMY_SYSTEM.md`, `19_ALCHEMY_FORGING_ARRAY_SYSTEM.md`
 
 ---
 
-## 🌱 1. Pengenalan Sistem Gardening (Pertanian Spiritual)
+## 🪴 1. Tahapan Sistem Pertanian Spiritual (5 Steps)
 
-Pertanian Spiritual adalah ilmu menanam, merawat, dan memanen tanaman obat, buah Qi, serta herba ajaib. Herba yang dipanen menjadi bahan utama pembuatan Pill Alkimia atau dimakan langsung untuk pemulihan Qi dan HP.
+Sistem Gardening memungkinkan pemain bercocok tanam tanaman obat, herba spiritual, dan buah Qi untuk bahan racikan Alkimia atau konsumsi mandiri.
+
+### 1. Kualitas Tanah (Soil Grade)
+* **Tanah Biasa (Mortal Soil)**: Kecepatan tumbuh normal (1x). Kualitas hasil panen standar.
+* **Tanah Qi Kayu Murni (Verdant Soil)**: Kecepatan tumbuh **2x lebih cepat**, kualitas hasil panen +1 Tier.
+* **Tanah Suci Vulkanik / Es (Special Element Soil)**: Syarat khusus untuk tanaman elemen Api / Es.
+
+### 2. Penanaman Benih (Seeding)
+Benih dimasukkan ke dalam plot tanah kebun. Setiap plot membutuhkan luasan 1x1 meter.
+
+### 3. Penyiraman & Injeksi Qi (Qi Irrigation)
+Setiap turn atau hari, pemain menyalurkan Qi Kayu atau Air ke dalam plot kebun:
+* **Konsumsi Qi**: 10 - 50 Poin Qi per penyiraman (tergantung Tier tanaman).
+* **Efek**: Mempercepat fase tumbuh & mencegah kegagalan panen.
+
+### 4. Penggunaan Pupuk Spiritual (Spiritual Fertilizer)
+* **Pupuk Qi Kayu Rendah**: Memotong waktu tumbuh sebesar **2 Turn**.
+* **Pupuk Abadi Teratai Emas**: Memotong waktu tumbuh sebesar **50%** & imun dari serangan hama.
+
+### 5. Penanganan Hama (Pest Control)
+Setiap 3 turn, terdapat **peluang 15%** kebun diserang Hama Serangga Ulat Jiwa:
+* **Pencegahan**: Memasang *Array Pelindung Kebun* (`19_ALCHEMY_FORGING_ARRAY_SYSTEM.md`) atau menyemprotkan *Cairan Racun Serangga*.
 
 ---
 
-## 🪴 2. Tahapan Berkebun (Gardening Process)
+## 🌸 2. Katalog 10 Tanaman Spiritual Utama
 
-1. **Pengolahan Tanah (Soil Quality)**:
-   - *Tanah Biasa*: Pertumbuhan standar (100%).
-   - *Tanah Qi Kayu Murni (Verdant Soil)*: Pertumbuhan 2x lebih cepat, kualitas herba meningkat 1 Tier.
-2. **Penanaman Benih (Seeding)**: Benih dapat dibeli di pasar/perguruan atau ditemukan saat menjelajah hutan.
-3. **Penyiraman Cairan Qi (Qi Irrigation)**: Pemain menyalurkan Qi Kayu/Air secara rutin setiap giliran untuk mempercepat kematangan.
-4. **Pemeliharaan dari Hama (Pest Control)**: Mencegah ulat jiwa atau serangga pencuri Qi merusak tanaman.
-5. **Panen (Harvesting)**: Hasil panen ditentukan oleh Tingkat Keterampilan Gardening pemain.
-
----
-
-## 🌸 3. Katalog Tanaman Spiritual Utama
-
-| Nama Tanaman | Waktu Tumbuh | Syarat Qi | Kegunaan / Hasil Panen |
-| :--- | :--- | :--- | :--- |
-| **Rumput Embun Jiwa** | 3 Turn | 10 Qi / Turn | Bahan Pill Pemulih Qi Rendah |
-| **Bunga Ginseng Merah** | 5 Turn | 20 Qi / Turn | Bahan Pill Penguat Darah & Vitalitas |
-| **Pohon Buah Spirit Emas** | 10 Turn | 50 Qi / Turn | Memulihkan 50% HP & Kelaparan |
-| **Teratai Es Abadi** | 15 Turn | 100 Qi / Turn | Bahan Utama Pill Breakthrough Inti Emas |
+| Nama Tanaman Spiritual | Waktu Tumbuh (Turn) | Konsumsi Qi / Turn | Syarat Tanah | Hasil Panen & Kegunaan |
+|---|---|---|---|---|
+| **Rumput Embun Jiwa** | 3 Turn | 10 Qi | Biasa / Verdant | Bahan Utama Pill Pemulih Qi Rendah (Tier 1) |
+| **Bunga Ginseng Merah** | 5 Turn | 20 Qi | Verdant Soil | Bahan Pill Pemulih Vitalitas & Darah (Tier 1) |
+| **Teratai Es Bintang** | 8 Turn | 40 Qi | Cold Soil | Bahan Pill Penawar Burn & Freeze (Tier 2) |
+| **Buah Spirit Emas** | 10 Turn | 50 Qi | Verdant Soil | Makanan Spiritual (+100% Satiety & +150 Qi) |
+| **Ginseng Lava Vulkanik** | 12 Turn | 60 Qi | Volcanic Soil | Bahan Utama Pill Breakthrough Inti Emas (Tier 3) |
+| **Akar Kayu Abadi** | 15 Turn | 80 Qi | Verdant Soil | Bahan Utama Pill Pemulih Organ Dalam (Tier 3) |
+| **Bunga Teratai Hitam** | 10 Turn | 50 Qi | Swamp Soil | Bahan Racikan Racun & Penawar Rawa (Tier 2) |
+| **Pohon Bambu Emas** | 18 Turn | 100 Qi | Verdant Soil | Bahan Gagang Senjata Spiritual & Zirah Kayu (Tier 3) |
+| **Rumput Kilat Ungu** | 7 Turn | 35 Qi | Thunder Soil | Bahan Pill Penguat Kecepatan Reflex (Tier 2) |
+| **Buah Jiwa Kehampaan** | 25 Turn | 200 Qi | Sacred Soil | Bahan Pill Breakthrough Void Transformation (Tier 4) |
