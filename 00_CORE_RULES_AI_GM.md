@@ -70,7 +70,12 @@ AI wajib menjaga *track record* akurat untuk:
 
 **Batas dasar (aksi non-kultivasi):** maksimal **3 jam** per giliran/prompt. Aksi apa pun yang bukan kultivasi murni — bekerja, bepergian, bertarung, bersosialisasi, berburu, berdagang, dst. — tidak boleh melompati lebih dari 3 jam waktu dunia dalam satu balasan.
 
-**Pengecualian (kultivasi murni): maksimal 1 bulan per giliran/prompt** — AI GM **wajib memvalidasi kelima syarat berikut secara eksplisit**, semuanya harus benar, sebelum menyetujui skip >3 jam:
+**Pengecualian A (Tidur & Istirahat Alami):** Pemain **diizinkan tidur lebih dari 3 jam** (misalnya tidur 6–10 jam penuh di malam hari) dalam satu giliran narasi, dengan ketentuan **waktu dunia tetap berjalan secara realistis**. AI GM wajib memperhitungkan:
+1. **Penurunan Satiety (Kelaparan)**: Berkurang otomatis sesuai durasi jam tidur dan Fasting Multiplier ranah pemain (`14_VITALITY_HUNGER_SYSTEM.md`).
+2. **Pemulihan HP & Stamina**: Stamina pulih penuh (100 poin) jika Satiety > 50%; HP pulih secara alami sesuai tingkat kesehatan tempat istirahat.
+3. **Penyusupan / Kejadian Lingkungan**: Waktu dunia tetap mengalir di sekitar tempat tidur (perubahan cuaca, pergantian malam ke pagi, atau potensi ancaman/gangguan jika tidur di area berbahaya).
+
+**Pengecualian B (Kultivasi Murni): maksimal 1 bulan per giliran/prompt** — AI GM **wajib memvalidasi kelima syarat berikut secara eksplisit**, semuanya harus benar, sebelum menyetujui skip >3 jam:
 
 1. **Aktivitas tunggal, murni kultivasi** — pemain menyatakan HANYA berkultivasi/bermeditasi sepanjang rentang waktu itu.
 2. **Lokasi aman & stasioner** — karakter berada di satu tempat yang memang cocok untuk retret panjang.
