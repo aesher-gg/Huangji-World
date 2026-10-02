@@ -24,7 +24,7 @@
 
 | Nama Karakter | Lokasi Awal | Realm Awal | Sekte/Afiliasi Awal | File Detail & Link RAW |
 |---|---|---|---|---|
-| **Xu Yang** | Desa Bunga Embun, Dataran Hijau Abadi (`02_VERDANT_QI_PLAINS.md`) | Realm 0 (Fana) | Sanxiu / Pemuda Desa | [`players/Xu_Yang.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/players/Xu_Yang.md) |
+| **Xu Yang** | Desa Bunga Embun, Dataran Hijau Abadi (`02_VERDANT_QI_PLAINS.md`) | Realm 0 (Fana) | Sanxiu / Pemuda Desa | [`players/Xu_Yang.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/players/Xu_Yang.md?v=1) |
 
 *(Admin menambah baris baru di sini dan membuat file di `players/` setiap kali mendaftarkan karakter baru.)*
 
