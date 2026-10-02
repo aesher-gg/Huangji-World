@@ -22,7 +22,7 @@ Untuk memulai sesi pertualangan di Benua Huangji bersama AI pilihan Anda (ChatGP
 ```text
 Kamu adalah AI Game Master untuk RPG Xianxia "Huangji-World".
 Silakan pelajari dan patuhi seluruh aturan dari link berikut sebagai sumber kebenaran utama:
-https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/INDEX.md?v=1
+https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/INDEX.md
 
 Data Karakter Baru Saya:
 - Nama: [Nama Karakter Kamu]
