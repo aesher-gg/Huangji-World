@@ -3,7 +3,7 @@
 > **Versi**: 3.0 (Huangji Core Edition)
 > **Genre**: Xianxia · Wuxia · Kultivasi · Hardcore Realism
 > **Lisensi**: MIT / Open Core Ruleset
-> **Rujukan Utama**: [`INDEX.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/INDEX.md)
+> **Rujukan Utama**: [`INDEX.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/INDEX.md?v=1)
 
 ---
 
@@ -39,29 +39,29 @@ Seluruh modul dalam repository ini terdaftar di **`INDEX.md`** dan dapat diakses
 ### 🏛️ Dokumen Inti & Sistem Dasar
 | Modul | File | Deskripsi |
 |---|---|---|
-| **00** | [`00_CORE_RULES_AI_GM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/00_CORE_RULES_AI_GM.md) | Aturan mutlak AI GM, anti-cheat, formula dasar, & format respon wajib |
-| **12** | [`12_CULTIVATION_LAW_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/12_CULTIVATION_LAW_SYSTEM.md) | 10 Ranah Universal (Fana s/d Kaisar Agung), Hukum, Physique, & Tribulasi |
-| **13** | [`13_ECONOMY_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/13_ECONOMY_SYSTEM.md) | Mata uang Batu Spiritual, harga item, & kalkulator ekonomi |
-| **14** | [`14_VITALITY_HUNGER_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/14_VITALITY_HUNGER_SYSTEM.md) | Sistem HP, Stamina, Kelaparan (Satiety), & Pemulihan |
-| **15** | [`15_COMBAT_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/15_COMBAT_SYSTEM.md) | Pertarungan Turn-Based, Elemen, Hit Chance, & Status Effect |
-| **16** | [`16_BESTIARY.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/16_BESTIARY.md) | Katalog Monster & Spirit Beast (Tier 0 s/d Boss High-Tier) |
-| **17** | [`17_GARDENING_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/17_GARDENING_SYSTEM.md) | Sistem Pertanian Spiritual, Kebun Herbal, & Panen Qi |
-| **18** | [`18_TAMING_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/18_TAMING_SYSTEM.md) | Penjinakan Beast, Companion, & Kontrak Jiwa |
-| **19** | [`19_ALCHEMY_FORGING_ARRAY_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/19_ALCHEMY_FORGING_ARRAY_SYSTEM.md) | Alkimia, Tempa Senjata, & Formasi Segel Spiritual |
+| **00** | [`00_CORE_RULES_AI_GM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/00_CORE_RULES_AI_GM.md?v=1) | Aturan mutlak AI GM, anti-cheat, formula dasar, & format respon wajib |
+| **12** | [`12_CULTIVATION_LAW_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/12_CULTIVATION_LAW_SYSTEM.md?v=1) | 10 Ranah Universal (Fana s/d Kaisar Agung), Hukum, Physique, & Tribulasi |
+| **13** | [`13_ECONOMY_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/13_ECONOMY_SYSTEM.md?v=1) | Mata uang Batu Spiritual, harga item, & kalkulator ekonomi |
+| **14** | [`14_VITALITY_HUNGER_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/14_VITALITY_HUNGER_SYSTEM.md?v=1) | Sistem HP, Stamina, Kelaparan (Satiety), & Pemulihan |
+| **15** | [`15_COMBAT_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/15_COMBAT_SYSTEM.md?v=1) | Pertarungan Turn-Based, Elemen, Hit Chance, & Status Effect |
+| **16** | [`16_BESTIARY.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/16_BESTIARY.md?v=1) | Katalog Monster & Spirit Beast (Tier 0 s/d Boss High-Tier) |
+| **17** | [`17_GARDENING_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/17_GARDENING_SYSTEM.md?v=1) | Sistem Pertanian Spiritual, Kebun Herbal, & Panen Qi |
+| **18** | [`18_TAMING_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/18_TAMING_SYSTEM.md?v=1) | Penjinakan Beast, Companion, & Kontrak Jiwa |
+| **19** | [`19_ALCHEMY_FORGING_ARRAY_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/19_ALCHEMY_FORGING_ARRAY_SYSTEM.md?v=1) | Alkimia, Tempa Senjata, & Formasi Segel Spiritual |
 
 ### 🗺️ Modul Wilayah & Geografi
 | Modul | File | Elemen / Ciri Utama |
 |---|---|---|
-| **01** | [`01_WORLD_OVERVIEW_AND_CAPITAL.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/01_WORLD_OVERVIEW_AND_CAPITAL.md) | Pusat Pemerintahan Kekaisaran Agung Huangji |
-| **02** | [`02_VERDANT_QI_PLAINS.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/02_VERDANT_QI_PLAINS.md) | Elemen Kayu & Qi Alam Vitalitas |
-| **03** | [`03_THUNDER_CREST_RANGE.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/03_THUNDER_CREST_RANGE.md) | Elemen Petir & Tambang Logam Murni |
-| **04** | [`04_CRIMSON_BLAZE_VALLEY.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/04_CRIMSON_BLAZE_VALLEY.md) | Elemen Api Vulkanik & Tungku Alkimia |
-| **05** | [`05_FROST_STAR_LAKE.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/05_FROST_STAR_LAKE.md) | Elemen Es Kristal & Danau Bintang |
-| **06** | [`06_DESOLATE_BONE_WASTELAND.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/06_DESOLATE_BONE_WASTELAND.md) | Elemen Kegelapan, Rangka, & Jiwa |
-| **07** | [`07_GOLDEN_SAND_DESERT.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/07_GOLDEN_SAND_DESERT.md) | Elemen Pasir, Tanah, & Oase Rahim |
-| **08** | [`08_SHADOW_MIST_SWAMP.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/08_SHADOW_MIST_SWAMP.md) | Elemen Racun, Kabut Miasma, & Rawa |
-| **09** | [`09_CELESTIAL_SKY_PEAKS.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/09_CELESTIAL_SKY_PEAKS.md) | Elemen Angin Langit & Puncak Awan |
-| **10** | [`10_OCEANIC_ABYSS_ISLANDS.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/10_OCEANIC_ABYSS_ISLANDS.md) | Elemen Samudra, Mutiara, & Palung Laut |
+| **01** | [`01_WORLD_OVERVIEW_AND_CAPITAL.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/01_WORLD_OVERVIEW_AND_CAPITAL.md?v=1) | Pusat Pemerintahan Kekaisaran Agung Huangji |
+| **02** | [`02_VERDANT_QI_PLAINS.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/02_VERDANT_QI_PLAINS.md?v=1) | Elemen Kayu & Qi Alam Vitalitas |
+| **03** | [`03_THUNDER_CREST_RANGE.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/03_THUNDER_CREST_RANGE.md?v=1) | Elemen Petir & Tambang Logam Murni |
+| **04** | [`04_CRIMSON_BLAZE_VALLEY.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/04_CRIMSON_BLAZE_VALLEY.md?v=1) | Elemen Api Vulkanik & Tungku Alkimia |
+| **05** | [`05_FROST_STAR_LAKE.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/05_FROST_STAR_LAKE.md?v=1) | Elemen Es Kristal & Danau Bintang |
+| **06** | [`06_DESOLATE_BONE_WASTELAND.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/06_DESOLATE_BONE_WASTELAND.md?v=1) | Elemen Kegelapan, Rangka, & Jiwa |
+| **07** | [`07_GOLDEN_SAND_DESERT.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/07_GOLDEN_SAND_DESERT.md?v=1) | Elemen Pasir, Tanah, & Oase Rahim |
+| **08** | [`08_SHADOW_MIST_SWAMP.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/08_SHADOW_MIST_SWAMP.md?v=1) | Elemen Racun, Kabut Miasma, & Rawa |
+| **09** | [`09_CELESTIAL_SKY_PEAKS.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/09_CELESTIAL_SKY_PEAKS.md?v=1) | Elemen Angin Langit & Puncak Awan |
+| **10** | [`10_OCEANIC_ABYSS_ISLANDS.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/10_OCEANIC_ABYSS_ISLANDS.md?v=1) | Elemen Samudra, Mutiara, & Palung Laut |
 
 ### 🏯 Sekte, Perguruan, & Organisasi
 * **Modul 20–32**: Sekte & Perguruan Beladiri Utama (Sekte Akar Kayu Abadi, Sekte Petir Ungu, Akademi Huangji, Sekte Tungku Api, Sekte Istana Es, Sekte Bayangan Jiwa, dll.)
