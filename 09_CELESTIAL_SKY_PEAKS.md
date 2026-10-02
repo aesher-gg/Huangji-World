@@ -1,50 +1,43 @@
 # 🏔️ 09. Puncak Langit Surgawi (Celestial Sky Peaks) — Huangji-World
 
-> **Status File**: Modul Lore Wilayah (Elemen Angin & Udara)
-> **Versi**: 3.0 (Huangji Core Edition)
-> **Spesialisasi Wilayah**: Kecepatan Gerak, Tebasan Pedang Angin, & Penerbangan Qi
+> **Status File:** Modul Lore Wilayah (Elemen Angin, Udara Murni, & Qi Surgawi)
+> **Versi:** 4.0 (Huangji Core Edition)
+> **Spesialisasi Wilayah:** Kultivasi Qi Angin & Surgawi, Terbang Kuno (*Flying Techniques*), & Hermit Meditasi
+> **Rujukan Silang:** `00_CORE_RULES_AI_GM.md`, `12_CULTIVATION_LAW_SYSTEM.md`, `13_ECONOMY_SYSTEM.md`, `16_BESTIARY.md`, `32_SECT_CELESTIAL_SKY.md`
 
 ---
 
 ## 🏞️ I. Gambaran Umum Wilayah
 
-Puncak-puncak gunung terjal yang menjulang melampaui lapisan awan tempat berhembusnya badai angin tajam.
+Puncak Langit Surgawi (*Celestial Sky Peaks*) adalah kumpulan puncak gunung melayang dan pilar batu menembus awan di bagian utara Benua Huangji. Udara wilayah ini sangat tipis tetapi mengandung **Qi Angin & Surgawi** yang murni.
 
-* **Qi Density Modifier**: `+30% Kecepatan Gerak & Damage Tebasan Pedang`
-* **Populasi Wilayah**: ± 24 Juta Jiwa
-
----
-
-## 📍 II. Lokasi, Sub-Wilayah & NPC Terperinci
-
-### 1. Kota Di Atas Awan (Cloudreach City)
-Kota melayang yang ditopang oleh *Array Angin Kuno*.
-| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sovereign Feng Yun** | Pemimpin Sekte Pedang Awan | 250 | Void Transformation, Peak | **83.000** | *Tebasan Tiga Ribu Awan* | Bebas, santai, tajam saat bertarung |
-| **Master Wings Yu Tian** | Kepala Perguruan Kepak Angin | 125 | Nascent Soul, Mid | **27.000** | *Kepak Angin Melintasi Langit* | Lincah, ceria, suka menguji kelincahan |
-
-### 2. Desa Angin Lembah (Wind Valley Village — 120 Li dari Kota)
-Desa pemukiman peternak burung rajawali angin.
-| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Peternak Rajawali Old Feng** | Tetua Desa Lembah | 60 | Qi Gathering, Peak | **200** | *Siulan Panggilan Rajawali* | Ramah, berpengalaman |
-
-### 3. Reruntuhan Anjungan Awan Purba (Ancient Cloud Platform Ruins — 300 Li dari Kota)
-Bekas anjungan tanding pedang para dewa angin purba.
-| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Pertape Pedang Lao Feng** | Penjaga Reruntuhan | 140 | Nascent Soul, Mid | **18.750** | *Perisai Tebasan Angin* | Penyendiri, tenang |
-
-### 4. Markas Penjelajah Angin Liar (Wind Explorer Hideout — Tebing Awan)
-Kawanan pemburu telur spirit beast angin.
-| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Kepala Penjelajah Sky Blade** | Pemimpin Pemburu | 43 | Foundation, Peak | **1.000** | *Tebasan Pedang Angin Cepat* | Pemberani, petualang |
+* **Modifier Kepadatan Qi**: `+40% Efisiensi Kultivasi Qi Angin / Surgawi, +30% Kecepatan Terbang Flying Mount`
+* **Geografi & Iklim**: Pilar Batu Melayang, Samudra Awan Putih, Udara Tipis Murni
+* **Populasi Wilayah**: ± 19 Juta Jiwa (Kultivator Angin, Pertapa Awan, Penjinak Burung Spirit)
+* **Kompabilitas Ranah**: Skala 10 Ranah Universal (Realm 0 Fana hingga Realm 9 Sovereign)
 
 ---
 
-## ☣️ III. Area Terlarang & Bahaya Hardcore Lingkungan
+## 📍 II. Lokasi, Sub-Wilayah & Katalog NPC Terperinci
 
-### 🏔️ Anjungan Pedang Angin (Windblade Platform — Area Terlarang)
-* **Bahaya Alam Hardcore**: Badai *Galeforce Blade Wind*. Bertarung di anjungan tanpa *Jubah Penyeimbang Qi* memiliki **peluang 15% terlempar dari tebing (Damage 50 HP)**.
+### ☁️ 1. Kuil Awan Surgawi (Celestial Cloud Temple — Pusat Sekte Puncak)
+Kuil melayang di atas pilar batu tertinggi yang terhubung oleh jembatan rantai emas.
+
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage (Universal) | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Ketua Feng Wushuang**| Pemimpin Sekte Puncak Surgawi| 270 | Realm 6 Formasi Roh, Late Stage | **625.000** | *Pedang Angin Pemutus Awan* | Bijaksana, bebas seperti angin, penyuka keindahan puisi. |
+| **Tetua Sky Crane** | Kepala Penjinak Burung Spirit | 160 | Realm 4 Inti Emas, Peak Stage | **25.000** | *Sutra Panggil Burung Bangau*| Ramah, tenang, penyabar pada murid pemula. |
+
+---
+
+## ☣️ III. Bahaya Lingkungan Hardcore
+
+### 💨 1. Angin Badai Langit (Gale Wind Hazard)
+* **Mekanik Gale Wind**: Bertarung di atas jembatan rantai atau pilar melayang memicu check **Agility Roll**. Jika gagal, pemain terkena debuff **Knockback / Fall Risk** (Damage Jatuh 100 Poin).
+
+---
+
+## 📝 IV. Checklist Validasi AI GM
+
+- [ ] Apakah status NPC menggunakan Ranah Universal (Realm 0–9) dan Qi Cap yang tepat?
+- [ ] Apakah check *Agility Roll* diterapkan saat bertarung di pilar melayang?
