@@ -4,9 +4,6 @@
 > **Versi:** 4.0 (Huangji Core Edition)
 > **Spesialisasi Wilayah:** Pusat Pemerintahan Kekaisaran, Hukum Istana, Lelang Terbesar, Akademi Kekaisaran, & Urat Naga (*Dragon Vein*)
 > **Rujukan Silang:** `00_CORE_RULES_AI_GM.md`, `12_CULTIVATION_LAW_SYSTEM.md`, `13_ECONOMY_SYSTEM.md`, `16_BESTIARY.md`, `24_AKADEMI_KEKAISARAN_HUANGJI.md`
-> **Status File**: Modul Lore Wilayah Pusat & Ikhtisar Dunia
-> **Versi**: 3.0 (Huangji Core Edition)
-> **Rujukan Silang**: `00_CORE_RULES_AI_GM.md` (aturan wajib), `02`–`10` (detail wilayah), `13_ECONOMY_SYSTEM.md`
 
 ---
 
@@ -15,7 +12,6 @@
 Benua Huangji adalah dunia luas yang terdiri dari 9 Wilayah Elemental Utama dan 1 Wilayah Pusat Imperial yang diperintah oleh Kekaisaran Agung Huangji.
 
 | Statistik Dunia | Nilai / Ukuran Resmi |
-| Statistik Dunia | Nilai / Ukuran |
 | :--- | :--- |
 | **Luas Benua Total** | ± 68 Juta Li² |
 | **Populasi Total** | ± 450 Juta Jiwa (Mortal & Kultivator) |
@@ -28,11 +24,6 @@ Benua Huangji adalah dunia luas yang terdiri dari 9 Wilayah Elemental Utama dan 
 ### 🧭 Peta Jarak & Perjalanan Utama (Dari Ibu Kota Agung Huangji)
 
 | Wilayah Tujuan | Jarak dari Ibu Kota | Waktu Tempuh Kuda Cepat | Waktu Tempuh Flying Mount / Kultivator |
-| **Pusat Kekuasaan** | Ibu Kota Agung Huangji (Huangji Imperial City) |
-
-### 🧭 Peta Jarak Utama (Dari Ibu Kota Agung Huangji)
-
-| Wilayah Tujuan | Jarak dari Ibu Kota | Waktu Tempuh Kuda Cepat | Waktu Tempuh Kultivator Terbang (Golden Core+) |
 | :--- | :--- | :--- | :--- |
 | **02. Dataran Hijau Abadi (Verdant Qi Plains)** | 1.200 Li | 6–7 Hari | 1 Hari |
 | **03. Pegunungan Petir Guntur (Thunder Crest Range)** | 1.800 Li | 9–11 Hari | 1.5 Hari |
@@ -134,35 +125,3 @@ Pusat ekonomi terbesar tempat penukaran mata uang batu spiritual dan pelelangan 
 - [ ] Apakah jarak Li dan waktu tempuh dari Ibu Kota dihitung secara adil dan realistis?
 - [ ] Apakah efek Kabut Emas (*Gilded Mist*) dan Tekanan Urat Naga diterapkan saat pemain memasuki wilayah spesifik?
 - [ ] Apakah transaksi di Balai Lelang dan Bank Imperial memotong biaya pajak yang sah?
-## 👑 II. Sub-Lokasi & Area Terlarang Wilayah Pusat
-
-### 1. Ibu Kota Agung Huangji (Huangji Imperial City)
-**Populasi**: 4.8 Juta Jiwa. Pusat supremasi politik, militer, dan hukum Kekaisaran Agung Huangji.
-
-#### NPC Utama Ibu Kota:
-| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Kaisar Huangji Tianming** | Kaisar Penguasa Benua | 320 | Sovereign Realm, Awal | **120.000** | *Genggaman Tahta Emas Agung* | Wibawa luar biasa, tenang, tidak banyak bicara |
-| **Panglima Perang Zhao Wuji** | Jenderal Garda Bayangan | 180 | Void Transformation, Peak | **85.000** | *Tebasan Pemutus Jiwa Emas* | Keras, disiplin tinggi, tidak mau menerima suap |
-| **Menteri Keuangan Feng Tian** | Kepala Perbendaharaan | 140 | Nascent Soul, Peak | **35.000** | *Perisai Sembilan Koin Qi* | Licik, ahli perhitungan, menyukai keuntungan |
-| **Putri Huangji Ling'er** | Putri Kerajaan / Master Array | 24 | Golden Core, Mid | **12.000** | *Sutra Segel Bintang Emas* | Cerdas, ramah, membenci kejahatan |
-
-### 2. Desa Gerbang Timur (Eastgate Village — 80 Li dari Ibu Kota)
-Desa penyangga pertanian yang memasok makanan spiritual bagi tentara kekaisaran.
-| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Kepala Desa Song** | Pemimpin Desa | 65 | Foundation, Early | **500** | *Tongkat Kayu Padi Qi* | Ramah, pekerja keras, penyabar |
-| **Petani Muda Ah Gao** | Pemburu Kelinci Spirit | 18 | Qi Gathering, Early | **100** | *Jerat Tali Angin* | Bersemangat, jujur |
-
-### 3. Reruntuhan Istana Tua Kekaisaran (Ancient Imperial Ruins — 220 Li dari Ibu Kota)
-Reruntuhan istana dinasti terdahulu yang dihancurkan pertempuran ratusan tahun lalu. Dipenuhi array pelindung rusak dan roh penjaga Kuno.
-| Nama NPC | Peran & Jabatan | Umur | Realm & Stage | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Pertape Tua Gu** | Pemburu Pusaka Kuno | 110 | Nascent Soul, Early | **12.500** | *Tebasan Pedang Reruntuhan* | Waspada, tertutup, penyendiri |
-
----
-
-## ☣️ III. Area Bahaya Hardcore Lingkungan Pusat
-
-### 🌲 Hutan Hujan Bambu Emas ( Imperial Golden Bamboo Grove — 150 Li dari Ibu Kota)
-* **Bahaya Lingkungan**: Menghirup kabut *Gilded Mist* tanpa perlindungan Qi / Pil Penawar mengurangi **Satiety +3% per jam** dan memberikan debuff **-10% Movement Speed**.
