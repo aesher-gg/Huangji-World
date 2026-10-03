@@ -122,7 +122,7 @@ Waktu_Lapar_Total = 6 jam × FastingMultiplier(realm)
 
 ### ⚠️ Tingkatan Penalti Kelaparan (Satiety Debuff)
 
-1. **Satiety 50% – 21% (Lapar)**: Stamina Regen −25%.
+1. **Satiety 30% – 21% (Lapar)**: Stamina Regen −25%.
 2. **Satiety 20% – 1% (Sangat Lapar)**: Max HP −20%, Output Qi −30%, Stamina Max terpotong menjadi 50 poin.
 3. **Satiety 0% (Kelaparan Ekstrem / Starvation)**: Karakter kehilangan 5% HP Max setiap jam in-game. Pemulihan Qi alami **terhenti sepenuhnya**.
 
