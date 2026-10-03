@@ -1,43 +1,99 @@
 # 🏜️ 07. Gurun Pasir Emas (Golden Sand Desert) — Huangji-World
 
-> **Status File:** Modul Lore Wilayah (Elemen Bumi, Logam Emas, & Badai Pasir)
+> **Status File:** Modul Lore Wilayah (Elemen Bumi, Logam Emas, & Badai Pasir Ilusi)
 > **Versi:** 4.0 (Huangji Core Edition)
-> **Spesialisasi Wilayah:** Kultivasi Qi Bumi / Logam, Penambangan Batu Spiritual, & Perdagangan Kafilah
-> **Rujukan Silang:** `00_CORE_RULES_AI_GM.md`, `12_CULTIVATION_LAW_SYSTEM.md`, `13_ECONOMY_SYSTEM.md`, `16_BESTIARY.md`, `30_SECT_GOLDEN_SAND.md`
+> **Spesialisasi Wilayah:** Kultivasi Qi Bumi / Logam, Penambangan Batu Spiritual, Perdagangan Kafilah, & Penggalian Situs Kuno
+> **Rujukan Silang:** `00_CORE_RULES_AI_GM.md`, `12_CULTIVATION_LAW_SYSTEM.md`, `13_ECONOMY_SYSTEM.md`, `16_BESTIARY.md`, `31_SEKTE_BENTENG_PASIR.md`, `32_PERGURUAN_PANAH_OASE.md`
 
 ---
 
-## 🏞️ I. Gambaran Umum Wilayah
+## 🏜️ I. Ekologi & Keunikan Gurun Pasir Emas
 
-Gurun Pasir Emas (*Golden Sand Desert*) adalah lautan pasir berkilau emas di wilayah barat daya Benua Huangji. Wilayah ini kaya akan tambang kristal mineral, batu spiritual tanah, dan situs kota kuno yang tertimbun pasir.
+Gurun Pasir Emas (*Golden Sand Desert*) bukan sekadar bentangan pasir kering, melainkan lautan bukit pasir bergerak yang pasirnya mengandung serbuk emas spiritual dan kristal mineral bumi murni. Di siang hari, panas matahari membakar pasir hingga memancarkan kilau keemasan, sedangkan di malam hari, suhu merosot tajam hingga di bawah titik beku.
 
-* **Modifier Kepadatan Qi**: `+35% Efisiensi Kultivasi Qi Bumi / Logam, +20% Hasil Penambangan Mineral`
-* **Geografi & Iklim**: Lautan Pasir Berkilau, Badai Pasir Putar, Oasis Tersembunyi
-* **Populasi Wilayah**: ± 22 Juta Jiwa (Kultivator Bumi, Pedagang Kafilah, Penambang Kristal)
+* **Modifier Kepadatan Qi**: `+35% Efisiensi Kultivasi Qi Bumi / Logam, +20% Hasil Penambangan Batu Spiritual`
+* **Phenomena Khusus**: *Lautan Bayangan Ilusi (Mirage Drift)* — Setiap pergantian siang ke malam, bukit pasir bergeser hingga peta wilayah berubah secara acak.
+* **Populasi Wilayah**: ± 22 Juta Jiwa (Kultivator Pasir, Pedagang Kafilah, Penambang Kristal, & Suku Nomaden Gurun)
 * **Kompabilitas Ranah**: Skala 10 Ranah Universal (Realm 0 Fana hingga Realm 9 Sovereign)
 
 ---
 
-## 📍 II. Lokasi, Sub-Wilayah & Katalog NPC Terperinci
+## 📍 II. Sub-Wilayah, Kota, & Katalog NPC Terperinci
 
-### 🕌 1. Kota Oasis Emas (Golden Oasis City — Pusat Perdagangan Gurun)
-Oasis megah yang dikelilingi benteng pasir berdinding tebal, menjadi titik kumpul utama seluruh kafilah dagang.
+### 🕌 1. Kota Oasis Emas (Golden Oasis City — Pusat Sekte & Perdagangan)
+Kota megah berbenteng pasir berdinding tebal tiga lapis yang dibangun melingkari Danau Air Murni Matahari. Merupakan pusat perbankan kafilah, pasar budak, dan pelelangan kristal bumi.
 
 | Nama NPC | Peran & Jabatan | Umur | Realm & Stage (Universal) | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Ketua Sha Wuji** | Pemimpin Sekte Pasir Emas | 250 | Realm 6 Formasi Roh, Mid Stage | **468.750** | *Tangan Raksasa Pasir Emas*| Dermawan pada pedagang, tegas pada perampok gurun. |
-| **Kepala Kafilah Hassan**| Pemimpin Serikat Dagang Gurun | 90 | Realm 3 Fondasi Jiwa, Peak Stage | **5.000** | *Perisai Tembok Pasir Kokoh*| Cerdik, ramah, kenal semua peta oasis rahasia. |
+| **Ketua Sha Wuji** | Pemimpin Sekte Benteng Pasir | 250 | Realm 7 Void Transform, Mid Stage | **2.343.750**| *Tangan Raksasa Pasir Emas*| Berwibawa, tegas pada perampok, dermawan pada pedagang patuh. |
+| **Master Panah Hassan**| Master Perguruan Panah Oase | 140 | Realm 5 Nascent Soul, Early Stage | **62.500** | *Panah Gelombang Badai Pasir*| Cerdik, tajam, ahli memanah sasaran jarak 1.000 Li. |
+| **Saudagar Tariq** | Kepala Serikat Kafilah Emas | 62 | Realm 3 Fondasi Jiwa, Peak Stage | **5.000** | *Perisai Tembok Pasir Kokoh*| Cerdas, ramah, kenal semua rute air bawah tanah rahasia. |
+| **Gadis Bintang Fatima**| Penjual Peta & Penjinak Beast | 22 | Realm 3 Fondasi Jiwa, Early Stage | **2.500** | *Sutra Penjinak Kalajengking*| Lincah, ceria, menguasai bahasa suku nomaden gurun. |
 
 ---
 
-## ☣️ III. Bahaya Lingkungan Hardcore
+### 🏜️ 2. Pasar Bayangan Ilusi (Mirage Bazaar — Lokasi Berpindah-Pindah)
+Pasar malam rahasia yang hanya muncul saat bulan purnama di bukit pasir bergeser. Tempat jual beli pusaka haram dan kitab kuno terlarang.
 
-### 🌪️ 1. Badai Pasir Emas (Golden Sandstorm Hazard)
-* **Mekanik Sandstorm**: Berada di luar oasis saat badai pasir terjadi memicu debuff **Dehydration** (Satiety Loss ×2 per jam & Loss Vision -50%).
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage (Universal) | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Nenek Ilusi Yazi** | Pengelola Pasar Bayangan | 185 | Realm 5 Nascent Soul, Peak Stage | **93.750** | *Kabut Bayangan Seribu Oase* | Misterius, hanya menerima pembayaran batu spirit murni. |
 
 ---
 
-## 📝 IV. Checklist Validasi AI GM
+### 🏛️ 3. Reruntuhan Piramida Tertimbun (Sunken Pyramid Ruins — 300 Li dari Oasis)
+Situs istana raja pasir purba yang tertimbun di bawah laut pasir, dipenuhi jebakan pasir hisap dan mumi prajurit batu.
 
-- [ ] Apakah status NPC menggunakan Ranah Universal (Realm 0–9) dan Qi Cap yang tepat?
-- [ ] Apakah efek *Dehydration* dari badai pasir diterapkan saat penjelajahan gurun?
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage (Universal) | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Penjaga Batu Kuno** | Spirit Guardian Piramida (Entity)| 1.200+| Realm 6 Formasi Roh, Mid Stage | **468.750** | *Hukuman Badai Pasir Emas* | Kaku, menguji keberanian siapa pun yang memasuki makam. |
+
+---
+
+### 🏴‍☠️ 4. Punggung Buntut Kalajengking (Scorpion Tail Ridge — Sarang Perampok)
+Jajaran bukit batu hitam runcing tempat bersembunyinya kawanan perampok *Kalajengking Merah*.
+
+| Nama NPC | Peran & Jabatan | Umur | Realm & Stage (Universal) | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Chief Red Scorpion** | Pemimpin Perampok Gurun | 46 | Realm 3 Fondasi Jiwa, Peak Stage | **5.000** | *Sengatan Duri Pasir Beracun*| Kejam, serakah, penunggang Kalajengking Raksasa T3. |
+
+---
+
+## ☣️ III. Bahaya Lingkungan Hardcore & Terlarang
+
+### ☀️ 1. Dehidrasi Panas Terik Siang Hari (Severe Dehydration Hazard)
+* **Mekanik Dehidrasi**: Berada di luar oasis antara jam 09:00 – 16:00 tanpa mengonsumsi *Air Murni Oase* atau *Pil Penawar Dehidrasi*, memicu penurunan **Satiety +5% per Jam** dan debuff **Fatigue** (-20% Attack Power).
+
+### 🌪️ 2. Pasir Hisap Bergerak (Quicksand Sinkhole)
+* **Mekanik Quicksand**: Saat melintasi bukit pasir acak, AI GM melakukan roll **1d20**. Jika roll **1 – 2**, pemain terperangkap di Pasir Hisap:
+  - Memerlukan **Strength / Agility Check** untuk bebas.
+  - Jika gagal dalam 2 Turn, pemain tersedot ke Gua Bawah Tanah (-30% HP & Terpisah dari kelompok).
+
+---
+
+## ⛏️ IV. Titik Penambangan & Sumber Daya Mineral (Mining Nodes)
+
+| Nama Node / Area | Material Utama | Grade / Tier (`19`) | Syarat Akses & Perizinan |
+|---|---|---|---|
+| **Kawah Pasir Kristal** | Kristal Mineral Bumi | M-2 (Spiritual Ore) | Bebas untuk penambang lokal. |
+| **Tambang Emas Abadi** | Emas Spirit Abadi | M-6 (Sovereign Metal) | Izin Sekte Benteng Pasir (+50 Reputasi). |
+
+---
+
+## 📜 V. Hook Misi Regional (Golden Sand Quests)
+
+1. **Pengawalan Kafilah Emas**:
+   - *Tugas*: Kawal kafilah Saudagar Tariq dari Kota Oasis Emas menembus Lembah Buntut Kalajengking.
+   - *Imbalan*: 25 Batu Spiritual Rendah + *Peta Oase Rahasia*.
+
+2. **Penggalian Reruntuhan Piramida**:
+   - *Tugas*: Ambil *Kristal Bumi Purba* dari dalam Reruntuhan Piramida Tertimbun.
+   - *Imbalan*: 5 Batu Spiritual Menengah + *Pil Tempa Tulang Besi* (Tier 3).
+
+---
+
+## 📝 VI. Checklist Validasi AI GM untuk Modul 07
+
+- [ ] Apakah seluruh status NPC menggunakan Ranah Universal (Realm 0–9) dan Qi Cap yang tepat?
+- [ ] Apakah efek Dehidrasi Siang Hari & roll Pasir Hisap (*1d20*) diterapkan secara akurat saat eksplorasi?
+- [ ] Apakah pergeseran bukit pasir (*Mirage Drift*) diperhitungkan dalam navigasi peta pemain?
