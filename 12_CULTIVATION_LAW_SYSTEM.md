@@ -86,17 +86,17 @@ Contoh: Golden Core Puncak (Realm 4 Peak) = 12.500 × 2,0 = **25.000 poin Qi mak
 ### H. ☣️ Hukum Racun Teratai Hitam (*Black Lotus Poison Law*)
 * **Sumber Daya**: **Qi Racun & Kabut**, menyebarkan miasma beracun.
 * **Mekanik Unik**: Imun racun biasa & sedang, serangan memicu Poison Damage bertahap.
-* **Sekte Utama**: Sekte Racun Bayangan (`33_SEKTE_RACUN_BAYANGAN.md`).
+* **Kelompok Utama**: Kelompok Racun Bayangan (`34_KELOMPOK_RACUN_BAYANGAN.md`).
 
 ### I. 🏔️ Hukum Pedang Awan (*Cloudblade Law*)
 * **Sumber Daya**: **Qi Angin Tajam**, memfokuskan kecepatan tebasan pedang.
 * **Mekanik Unik**: Kecepatan tebasan pedang +35%, peluang melarikan diri (Escape) +20%.
-* **Sekte Utama**: Sekte Pedang Awan (`35_SEKTE_PEDANG_AWAN.md`).
+* **Perguruan Utama**: Perguruan Panah Oase (`32_PERGURUAN_PANAH_OASE.md`).
 
 ### J. 🌊 Hukum Mutiara Samudra (*Ocean Pearl Law*)
 * **Sumber Daya**: **Qi Samudra & Air**, mengendalikan pusaran air dan mutiara qi.
 * **Mekanik Unik**: Pertarungan di atas/dalam air +35% damage, imun tekanan kedalaman laut.
-* **Sekte Utama**: Sekte Mutiara Samudra (`37_SEKTE_MUTIARA_SAMUDRA.md`).
+* **Wilayah Utama**: Kepulauan Palung Samudra (`10_OCEANIC_ABYSS_ISLANDS.md`).
 
 ### K. 🗡️ Hukum Custom Resmi: Hukum Pisau Sunyi (*Silent Blade Law*)
 * **Sumber Daya**: **Qi Pembunuh Senyap**, menyerap fokus eksekusi kontrak.

@@ -3,7 +3,7 @@
 > **Status File:** Modul Lore Wilayah Pusat & Ikhtisar Benua
 > **Versi:** 4.0 (Huangji Core Edition)
 > **Spesialisasi Wilayah:** Pusat Pemerintahan Kekaisaran, Hukum Istana, Lelang Terbesar, Akademi Kekaisaran, & Urat Naga (*Dragon Vein*)
-> **Rujukan Silang:** `00_CORE_RULES_AI_GM.md`, `12_CULTIVATION_LAW_SYSTEM.md`, `13_ECONOMY_SYSTEM.md`, `16_BESTIARY.md`, `24_ACADEMY_IMPERIAL.md`
+> **Rujukan Silang:** `00_CORE_RULES_AI_GM.md`, `12_CULTIVATION_LAW_SYSTEM.md`, `13_ECONOMY_SYSTEM.md`, `16_BESTIARY.md`, `24_AKADEMI_KEKAISARAN_HUANGJI.md`
 
 ---
 
@@ -111,7 +111,7 @@ Pusat ekonomi terbesar tempat penukaran mata uang batu spiritual dan pelelangan 
 
 2. **Pembersihan Reruntuhan Istana Tua**:
    - *Tugas*: Ambil pecahan *Prasasti Hukum Kuno* dari dalam Reruntuhan Istana Tua.
-   - *Imbalan*: 5 Batu Spiritual Menengah + Akses Perpustakaan Akademi Imperial (`24`).
+   - *Imbalan*: 5 Batu Spiritual Menengah + Akses Perpustakaan Akademi Imperial (`24_AKADEMI_KEKAISARAN_HUANGJI.md`).
 
 3. **Perburuan Bunga Bambu Emas**:
    - *Tugas*: Kumpulkan 3x *Bunga Bambu Emas* dari Hutan Hujan Bambu Emas tanpa merusak batangnya.

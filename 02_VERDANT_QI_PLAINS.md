@@ -3,7 +3,7 @@
 > **Status File:** Modul Lore Wilayah (Elemen Kayu & Qi Vitalitas Alam Abadi)
 > **Versi:** 4.0 (Huangji Core Edition)
 > **Spesialisasi Wilayah:** Pertanian Spiritual (*Gardening System*), Pengobatan & Alkimia Herba, Penjinakan Spirit Beast Kayu (*Taming*), & Qi Vitalitas Abadi
-> **Rujukan Silang:** `00_CORE_RULES_AI_GM.md`, `12_CULTIVATION_LAW_SYSTEM.md`, `13_ECONOMY_SYSTEM.md`, `16_BESTIARY.md`, `17_GARDENING_SYSTEM.md`, `18_TAMING_SYSTEM.md`, `20_SECT_VERDANT_WOOD.md`
+> **Rujukan Silang:** `00_CORE_RULES_AI_GM.md`, `12_CULTIVATION_LAW_SYSTEM.md`, `13_ECONOMY_SYSTEM.md`, `16_BESTIARY.md`, `17_GARDENING_SYSTEM.md`, `18_TAMING_SYSTEM.md`, `20_SEKTE_AKAR_KAYU_ABADI.md`
 
 ---
 
@@ -102,7 +102,7 @@ Dataran Hijau Abadi adalah surga bagi para pemudidaya herba spiritual:
 |---|---|---|---|---|
 | **Kebun Publik Lembah Embun**| G-1 (Subur Biasa) | Rumput Embun Jiwa, Bunga Ginseng Merah | Normal (1x) | Gratis untuk warga desa & pengembara. |
 | **Kebun Teratai Water Node** | G-2 (Verdant Water) | Teratai Air Spirit, Bunga Melati Embun | **2x Lebih Cepat** | Izin Kepala Desa Lotus (+20 Merit). |
-| **Kebun Utama Sekte Akar** | G-2 / G-6 (Holy Soil) | Akar Kayu Abadi, Teratai Jiwa Emas | **2x – 4x Cepat** | Anggota Sekte Akar Kayu Abadi (`20`). |
+| **Kebun Utama Sekte Akar** | G-2 / G-6 (Holy Soil) | Akar Kayu Abadi, Teratai Jiwa Emas | **2x – 4x Cepat** | Anggota Sekte Akar Kayu Abadi (`20_SEKTE_AKAR_KAYU_ABADI.md`). |
 
 ---
 
