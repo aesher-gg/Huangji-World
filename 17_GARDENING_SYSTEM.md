@@ -1,16 +1,25 @@
 # 🌱 Huangji-World — Sistem Pertanian Spiritual & Non-Spiritual (Gardening System)
 
-> **Modul:** 17 — Gardening System
+> **Modul:** 17 — Gardening & Spiritual Herb Cultivation System
 > **Prinsip:** Anti-Cheat Enforced — Time & Qi Irrigation Dependent — Terintegrasi dengan Alkimia, Ekonomi, & Vitalitas
-> **Rujukan Silang:** `02_VERDANT_QI_PLAINS.md`, `13_ECONOMY_SYSTEM.md`, `14_VITALITY_HUNGER_SYSTEM.md`, `19_ALCHEMY_FORGING_ARRAY_SYSTEM.md`
+> **Rujukan Utama:** [`INDEX.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/INDEX.md?v=1)
+> **Rujukan Silang:**
+> - [`00_CORE_RULES_AI_GM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/00_CORE_RULES_AI_GM.md?v=1) (Aturan Wajib AI GM)
+> - [`02_VERDANT_QI_PLAINS.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/02_VERDANT_QI_PLAINS.md?v=1) (Pusat Kebun Kayu Vitalitas)
+> - [`12_CULTIVATION_LAW_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/12_CULTIVATION_LAW_SYSTEM.md?v=1) (Hukum Akar Kayu & Qi Cap)
+> - [`13_ECONOMY_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/13_ECONOMY_SYSTEM.md?v=1) (Mata Uang Tael & Harga Herba)
+> - [`14_VITALITY_HUNGER_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/14_VITALITY_HUNGER_SYSTEM.md?v=1) (Nilai Satiety Pangan)
+> - [`19_ALCHEMY_FORGING_ARRAY_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/19_ALCHEMY_FORGING_ARRAY_SYSTEM.md?v=1) (Bahan Baku Pil Alkimia)
 
 ---
 
-## 0. Filosofi & Aturan Emas Pertanian
+## 📜 0. Filosofi & Aturan Emas Pertanian
 
-Bercocok tanam di Benua Huangji tidak hanya dilakukan oleh para kultivator untuk menghasilkan bahan racikan pil alkimia, tetapi juga oleh masyarakat fana (Mortal) untuk memenuhi bahan pangan, obat-obatan herbal dasar, serta komoditas perdagangan. Baik tanaman fana (non-spiritual) maupun tanaman spiritual membutuhkan pengelolaan nutrisi tanah, penyiraman air/Qi secara berkala, dan perlindungan dari ancaman hama.
+Bercocok tanam di Benua Huangji tidak hanya dilakukan oleh para kultivator untuk menghasilkan bahan racikan pil alkimia, tetapi juga oleh masyarakat fana (*Mortal*) untuk memenuhi bahan pangan, obat-obatan herbal dasar, serta komoditas perdagangan. Baik tanaman fana (non-spiritual) maupun tanaman spiritual membutuhkan pengelolaan nutrisi tanah, penyiraman air/Qi secara berkala, dan perlindungan dari ancaman hama.
 
-### 📜 Aturan Emas Anti-Cheat Gardening
+**AI GM WAJIB memvalidasi waktu tumbuh, konsumsi Qi penyiraman, dan log panen pada setiap siklus pertanian.**
+
+### 🛡️ Aturan Emas Anti-Cheat Gardening
 1. **Tidak Ada Panen Instan**: Tanaman tumbuh berdasarkan giliran (*Turn*) atau durasi waktu dunia yang berlalu secara sah. Tidak boleh ada skenario skip waktu tanpa perhitungan waktu dunia yang konsisten.
 2. **Konsumsi Qi & Air Tercatat**: Setiap tindakan penyiraman Qi murni atau perawatan tanaman WAJIB mencatat pengurangan Qi/Stamina pada log profil karakter.
 3. **Penyimpanan Item Origin Log**: Semua hasil panen herba dan tanaman spiritual WAJIB dicatat di **Item Origin Log** (`[Nama Item | Grade | Sumber: Hasil Panen Petak X | Timestamp]`) sebelum dapat digunakan untuk alkimia atau dijual.
@@ -38,13 +47,13 @@ Kualitas tanah menentukan kecepatan tumbuh, tingkat keberhasilan panen, dan bata
 
 Pemain dapat mengaplikasikan pupuk untuk mempercepat masa tanam atau meningkatkan kualitas hasil panen:
 
-| Nama Pupuk / Nutrisi | Komposisi & Bahan | Efek Tumbuh | Kualitas Panen | Durasi Efek |
-|---|---|---|---|---|
-| **Pupuk Kompos Fana** | Kotoran Ternak & Daun Busuk | Memotong waktu tumbuh **1 Turn**. | Normal | 1 Siklus Tanam |
-| **Pupuk Qi Kayu Rendah** | Serbuk Batu Spiritual + Sisa Herba Tier 1 | Memotong waktu tumbuh **2 Turn**. | Kualitas +5% | 1 Siklus Tanam |
-| **Pupuk Cair Esens Spirit** | Ekstrak Darah Beast Tier 2–3 + Qi Murni | Memotong waktu tumbuh **50%**. | Potensi Hasil Panen ×2 | 1 Siklus Tanam |
-| **Aroma Ginseng Abadi** | Abu Alkimia Pil Tier 4 + Air Murni | Memotong waktu tumbuh **75%**. | Kualitas Naik 1 Grade (Misal: Baik → Unggul) | 1 Siklus Tanam |
-| **Pupuk Abadi Teratai Emas** | Konsentrat Urat Naga + Abu Pil Tier 6 | Memotong waktu tumbuh **90%** & Imun Hama. | Kualitas Murni / Sempurna | 2 Siklus Tanam |
+| Nama Pupuk / Nutrisi | Komposisi & Bahan Baku Utama | Efek Waktu Tumbuh | Efek Kualitas Panen | Durasi Efek | Harga Pasar Standar |
+|---|---|---|---|---|---|
+| **Pupuk Kompos Fana** | Kotoran Ternak & Daun Busuk | Memotong waktu tumbuh **1 Turn**. | Kualitas Normal | 1 Siklus Tanam | 50 Tael Tembaga |
+| **Pupuk Qi Kayu Rendah** | Serbuk Batu Spirit + Sisa Herba T1 | Memotong waktu tumbuh **2 Turn**. | Kualitas +5% | 1 Siklus Tanam | 5 Tael Perak |
+| **Pupuk Cair Esens Spirit** | Ekstrak Darah Beast Tier 2–3 + Qi | Memotong waktu tumbuh **50%**. | Potensi Hasil Panen $\times 2$ | 1 Siklus Tanam | 50 Tael Perak |
+| **Aroma Ginseng Abadi** | Abu Alkimia Pil Tier 4 + Air Murni | Memotong waktu tumbuh **75%**. | Kualitas Naik 1 Grade | 1 Siklus Tanam | 5 Tael Giok Putih |
+| **Pupuk Abadi Teratai Emas** | Konsentrat Urat Naga + Abu Pil T6 | Memotong waktu tumbuh **90%** & Imun Hama. | Kualitas Murni / Sempurna | 2 Siklus Tanam | 2 Batu Spiritual Rendah |
 
 ---
 
@@ -54,96 +63,96 @@ Pada setiap **3 Turn** sekali saat proses pertumbuhan, AI GM melakukan roll kebe
 
 | Hasil Roll (1d20) | Jenis Gangguan / Hama | Dampak Jika Dibiarkan | Cara Penanganan / Solusi |
 |---|---|---|---|
-| **1 – 3** | **Tikus Tanah Qi / Ulat Kayu Spirit** | Menggerogoti tanaman (-50% Hasil Panen / Turn). | Pembasmian Manual (Aksi Turn) / Pasang Perangkap Beast |
-| **4 – 6** | **Jamur Pembusuk Akar (Akar Hitam)** | Tanaman mati dalam 2 Turn. | Penyiraman Air Garam Spirit / Aplikasi Pupuk Qi Kayu |
-| **7 – 9** | **Kekeringan Qi (Air Lembab Habis)** | Pertumbuhan terhenti (*Stagnant*). | Injeksi Qi Air/Kayu (20 Qi per Petak) |
-| **10 – 12** | **Belalang Merah Api** | Menurunkan Kualitas Panen sebesar 1 Grade. | Pengasapan Herbal / Array Pelindung Kebun |
+| **1 – 3** | **Tikus Tanah Qi / Ulat Kayu Spirit** | Menggerogoti tanaman (-50% Hasil Panen / Turn). | Pembasmian Manual (Aksi Turn) / Perangkap Beast (`18`). |
+| **4 – 6** | **Jamur Pembusuk Akar (Akar Hitam)** | Tanaman mati dalam 2 Turn. | Penyiraman Air Garam Spirit / Aplikasi Pupuk Qi Kayu. |
+| **7 – 9** | **Kekeringan Qi (Air Lembab Habis)** | Pertumbuhan terhenti (*Stagnant*). | Injeksi Qi Air/Kayu (20 Qi per Petak). |
+| **10 – 12** | **Belalang Merah Api** | Menurunkan Kualitas Panen sebesar 1 Grade. | Pengasapan Herbal / Array Pelindung Kebun (`19`). |
 | **13 – 20** | **Aman & Subur** | Tanaman tumbuh optimal tanpa hambatan. | Tidak perlu tindakan khusus. |
 
 ---
 
-## 🌾 4. Katalog Tanaman Non-Spiritual (Tumbuhan Fana / Biasa)
+## 🌾 4. Katalog Tanaman Non-Spiritual (Tumbuhan Fana / Pertanian Pangan)
 
-Tanaman non-spiritual ditanam di tanah fana (G-0 atau G-1) oleh masyarakat biasa, petani, maupun kultivator yang ingin memproduksi bahan pangan, rempah, dan tekstil. Tanaman ini tidak membutuhkan penyiraman Qi murni, melainkan cukup disiram air biasa secara rutin.
+Tanaman non-spiritual ditanam di tanah fana (G-0 atau G-1) oleh masyarakat biasa, petani, maupun kultivator untuk memproduksi bahan pangan, rempah, dan tekstil. Tanaman ini tidak membutuhkan penyiraman Qi murni, melainkan cukup disiram air biasa secara rutin.
 
-| Nama Tanaman | Waktu Tumbuh | Penyiraman Air | Hasil Panen per Petak | Harga Jual Pasar (Biasa) | Nilai Satiety / Kegunaan Nyata |
+| Nama Tanaman | Waktu Tumbuh | Penyiraman Air | Hasil Panen per Petak | Harga Jual Pasar Standar | Nilai Satiety / Kegunaan Nyata |
 |---|---|---|---|---|---|
-| **Beras Padi Emas** | 3 Turn | 1x / Turn | 10 Kg Beras | 50 Koin Perunggu / Kg | Bahan Pangan Utama (+20% Satiety per Porsi Nasi) |
-| **Gandum Lembah Hijau** | 3 Turn | 1x / Turn | 12 Kg Gandum | 40 Koin Perunggu / Kg | Bahan Roti & Mie (+15% Satiety per Porsi) |
-| **Ubi Ungu Gunung** | 2 Turn | 1x / 2 Turn | 15 Kg Ubi | 30 Koin Perunggu / Kg | Makanan Tahan Lama (+25% Satiety per Ubi Rebus) |
-| **Bawang Perak Fana** | 2 Turn | 1x / Turn | 5 Kg Bawang | 60 Koin Perunggu / Kg | Bumbu Masak & Dapur, Obat Batuk Ringan (+5 HP) |
-| **Sawi Putih Embun** | 1 Turn | 1x / Turn | 8 Kg Sawi | 25 Koin Perunggu / Kg | Sayur Segar (+10% Satiety, Pemulihan Stamina +5) |
-| **Cabai Merah Bara** | 2 Turn | 1x / Turn | 4 Kg Cabai | 80 Koin Perunggu / Kg | Bumbu Penghangat Tubuh (Menghilangkan Debuff Cold) |
-| **Jahe Hutan Fana** | 3 Turn | 1x / 2 Turn | 6 Kg Jahe | 1 Koin Perak / Kg | Penawar Demam & Mual Ringan, Ramuan Penghangat |
-| **Teh Daun Hijau** | 4 Turn | 1x / Turn | 3 Kg Daun Teh | 3 Koin Perak / Kg | Bahan Minuman Teh (+10 Stamina & FOKUS +1) |
-| **Kapas Sutra Fana** | 5 Turn | 1x / Turn | 5 Kg Kapas | 2 Koin Perak / Kg | Bahan Baku Pakaian, Kain, Zirah Kain Biasa |
-| **Kayu Manis Fana** | 6 Turn | 1x / 2 Turn | 4 Kg Kulit Kayu | 4 Koin Perak / Kg | Rempah Wangi, Pengawet Daging, Komoditas Dagang |
+| **Beras Padi Emas** | 3 Turn | 1x / Turn | 10 Kg Beras | 50 Tael Tembaga / Kg | Bahan Pangan Utama (+20% Satiety per Porsi Nasi) |
+| **Gandum Lembah Hijau** | 3 Turn | 1x / Turn | 12 Kg Gandum | 40 Tael Tembaga / Kg | Bahan Roti & Mie (+15% Satiety per Porsi) |
+| **Ubi Ungu Gunung** | 2 Turn | 1x / 2 Turn | 15 Kg Ubi | 30 Tael Tembaga / Kg | Makanan Tahan Lama (+25% Satiety per Ubi Rebus) |
+| **Bawang Perak Fana** | 2 Turn | 1x / Turn | 5 Kg Bawang | 60 Tael Tembaga / Kg | Bumbu Masak & Dapur, Obat Batuk Ringan (+5 HP) |
+| **Sawi Putih Embun** | 1 Turn | 1x / Turn | 8 Kg Sawi | 25 Tael Tembaga / Kg | Sayur Segar (+10% Satiety, Pemulihan Stamina +5) |
+| **Cabai Merah Bara** | 2 Turn | 1x / Turn | 4 Kg Cabai | 80 Tael Tembaga / Kg | Bumbu Penghangat Tubuh (Menghilangkan Debuff Cold) |
+| **Jahe Hutan Fana** | 3 Turn | 1x / 2 Turn | 6 Kg Jahe | 1 Tael Perak / Kg | Penawar Demam & Mual Ringan, Ramuan Penghangat |
+| **Teh Daun Hijau** | 4 Turn | 1x / Turn | 3 Kg Daun Teh | 3 Tael Perak / Kg | Bahan Minuman Teh (+10 Stamina & FOKUS +1) |
+| **Kapas Sutra Fana** | 5 Turn | 1x / Turn | 5 Kg Kapas | 2 Tael Perak / Kg | Bahan Baku Pakaian, Kain, Zirah Kain Biasa |
+| **Kayu Manis Fana** | 6 Turn | 1x / 2 Turn | 4 Kg Kulit Kayu | 4 Tael Perak / Kg | Rempah Wangi, Pengawet Daging, Komoditas Dagang |
 
 ---
 
 ## 🌸 5. Katalog Tanaman Spiritual (Tumbuhan Qi & Herba Kultivasi)
 
-Tanaman spiritual memerlukan penyiraman Qi murni dan jenis tanah khusus. Hasil panennya merupakan bahan baku utama Alkimia, pemulihan Qi/HP tingkat lanjut, serta konsumsi spiritual.
+Tanaman spiritual memerlukan penyiraman Qi murni dan jenis tanah khusus. Hasil panennya merupakan bahan baku utama Alkimia ([`19_ALCHEMY_FORGING_ARRAY_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/19_ALCHEMY_FORGING_ARRAY_SYSTEM.md?v=1)), pemulihan Qi/HP tingkat lanjut, serta konsumsi spiritual.
 
-### 🟢 Tier 1 — Spiritual Herbs (Ranah Pembersihan Tubuh / Body Refining)
+### 🟢 5.1 Tier 1 — Spiritual Herbs (Ranah Pembersihan Tubuh / Body Refining)
 
-| Nama Tanaman | Waktu Tumbuh | Konsumsi Qi / Turn | Syarat Tanah | Hasil Panen & Kegunaan | Harga Pasar |
+| Nama Tanaman | Waktu Tumbuh | Konsumsi Qi / Turn | Syarat Tanah | Hasil Panen & Kegunaan Utama Alkimia | Harga Pasar Standar |
 |---|---|---|---|---|---|
-| **Rumput Embun Jiwa** | 3 Turn | 10 Qi | G-1 / G-2 | Bahan Utama Pil Pemulih Qi Rendah (Tier 1) | 50 Koin Perak |
-| **Bunga Ginseng Merah** | 5 Turn | 20 Qi | G-2 (Verdant) | Bahan Pil Pemulih Vitalitas & Darah (Tier 1) | 1 Batu Spiritual Rendah |
-| **Jamur Bayang Perak** | 4 Turn | 15 Qi | G-1 (Tepi Gua) | Bahan Pil Penyamar Aura & Racun Lemah | 80 Koin Perak |
-| **Bunga Melati Embun** | 3 Turn | 12 Qi | G-1 / G-2 | Bahan Teh Spiritual (+50 Qi & +10% Satiety) | 60 Koin Perak |
-| **Akar Serabut Qi** | 4 Turn | 18 Qi | G-2 (Verdant) | Bahan Dasar Salep Pemulih Memar & Luka Otot | 90 Koin Perak |
+| **Rumput Embun Jiwa** | 3 Turn | 10 Qi | G-1 / G-2 | Bahan Utama Pil Pemulih Qi Rendah (Tier 1) | 50 Tael Perak |
+| **Bunga Ginseng Merah** | 5 Turn | 20 Qi | G-2 (Verdant) | Bahan Pil Pemulih Vitalitas & Darah (Tier 1) | 1 Tael Giok Putih |
+| **Jamur Bayang Perak** | 4 Turn | 15 Qi | G-1 (Tepi Gua) | Bahan Pil Penyamar Aura & Racun Lemah | 80 Tael Perak |
+| **Bunga Melati Embun** | 3 Turn | 12 Qi | G-1 / G-2 | Bahan Teh Spiritual (+50 Qi & +10% Satiety) | 60 Tael Perak |
+| **Akar Serabut Qi** | 4 Turn | 18 Qi | G-2 (Verdant) | Bahan Dasar Salep Pemulih Memar & Luka Otot | 90 Tael Perak |
 
 ---
 
-### 🔵 Tier 2 — Spiritual Herbs (Ranah Pengumpulan Qi / Qi Gathering)
+### 🔵 5.2 Tier 2 — Spiritual Herbs (Ranah Pengumpulan Qi / Qi Gathering)
 
-| Nama Tanaman | Waktu Tumbuh | Konsumsi Qi / Turn | Syarat Tanah | Hasil Panen & Kegunaan | Harga Pasar |
+| Nama Tanaman | Waktu Tumbuh | Konsumsi Qi / Turn | Syarat Tanah | Hasil Panen & Kegunaan Utama Alkimia | Harga Pasar Standar |
 |---|---|---|---|---|---|
-| **Teratai Es Bintang** | 8 Turn | 40 Qi | G-3 (Frost Soil) | Bahan Pil Penawar Burn & Freeze, Pil Suci Es | 5 Batu Spiritual Rendah |
-| **Buah Spirit Emas** | 10 Turn | 50 Qi | G-2 (Verdant) | Makanan Spiritual (+100% Satiety & +150 Qi) | 8 Batu Spiritual Rendah |
-| **Bunga Giok Hijau** | 7 Turn | 35 Qi | G-2 (Verdant) | Bahan Pil Pembersih Meridian & Racun Tier 2 | 4 Batu Spiritual Rendah |
-| **Bambu Petir Ungu** | 9 Turn | 45 Qi | G-5 (Thunder) | Bahan Jimat Petir & Gagang Senjata Tier 2 | 6 Batu Spiritual Rendah |
-| **Daun Angin Bintang** | 6 Turn | 30 Qi | G-2 (Verdant) | Bahan Pil Peningkat Kecepatan (Agility Boost) | 3 Batu Spiritual Rendah |
+| **Teratai Es Bintang** | 8 Turn | 40 Qi | G-3 (Frost Soil) | Bahan Pil Penawar Burn & Freeze, Pil Suci Es | 5 Tael Giok Putih |
+| **Buah Spirit Emas** | 10 Turn | 50 Qi | G-2 (Verdant) | Makanan Spiritual (+100% Satiety & +150 Qi) | 8 Tael Giok Putih |
+| **Bunga Giok Hijau** | 7 Turn | 35 Qi | G-2 (Verdant) | Bahan Pil Pembersih Meridian & Racun Tier 2 | 4 Tael Giok Putih |
+| **Bambu Petir Ungu** | 9 Turn | 45 Qi | G-5 (Thunder) | Bahan Jimat Petir & Gagang Senjata Tier 2 | 6 Tael Giok Putih |
+| **Daun Angin Bintang** | 6 Turn | 30 Qi | G-2 (Verdant) | Bahan Pil Peningkat Kecepatan (Agility Boost) | 3 Tael Giok Putih |
 
 ---
 
-### 🟣 Tier 3 — Spiritual Herbs (Ranah Fondasi Jiwa / Foundation Establishment)
+### 🟣 5.3 Tier 3 — Spiritual Herbs (Ranah Fondasi Jiwa / Foundation Establishment)
 
-| Nama Tanaman | Waktu Tumbuh | Konsumsi Qi / Turn | Syarat Tanah | Hasil Panen & Kegunaan | Harga Pasar |
+| Nama Tanaman | Waktu Tumbuh | Konsumsi Qi / Turn | Syarat Tanah | Hasil Panen & Kegunaan Utama Alkimia | Harga Pasar Standar |
 |---|---|---|---|---|---|
-| **Ginseng Lava Vulkanik** | 12 Turn | 60 Qi | G-4 (Lava Soil) | Bahan Utama Pil Breakthrough Fondasi Jiwa / Inti Emas | 25 Batu Spiritual Rendah |
-| **Akar Kayu Abadi** | 15 Turn | 80 Qi | G-2 (Verdant) | Bahan Utama Pil Pemulih Organ Dalam & Trauma | 35 Batu Spiritual Rendah |
-| **Bunga Roh Rembulan** | 10 Turn | 50 Qi | G-2 (Malam Hari) | Bahan Pil Peningkat Jiwa Spiritual & Meredam Qi Deviation | 20 Batu Spiritual Rendah |
-| **Buah Kristal Besi** | 14 Turn | 70 Qi | G-5 (Thunder) | Bahan Pil Tempa Tulang Besi (+Def Murni) | 30 Batu Spiritual Rendah |
-| **Rumput Racun Kalajengking**| 11 Turn | 55 Qi | G-1 / G-2 | Bahan Racun Paralis Mematikan Tier 3 | 18 Batu Spiritual Rendah |
+| **Ginseng Lava Vulkanik** | 12 Turn | 60 Qi | G-4 (Lava Soil) | Bahan Utama Pil Breakthrough Fondasi Jiwa / Inti Emas | 25 Tael Giok Putih |
+| **Akar Kayu Abadi** | 15 Turn | 80 Qi | G-2 (Verdant) | Bahan Utama Pil Pemulih Organ Dalam & Trauma | 35 Tael Giok Putih |
+| **Bunga Roh Rembulan** | 10 Turn | 50 Qi | G-2 (Malam Hari) | Bahan Pil Peningkat Jiwa Spiritual & Meredam Qi Deviation | 20 Tael Giok Putih |
+| **Buah Kristal Besi** | 14 Turn | 70 Qi | G-5 (Thunder) | Bahan Pil Tempa Tulang Besi (+Def Murni) | 30 Tael Giok Putih |
+| **Rumput Racun Kalajengking**| 11 Turn | 55 Qi | G-1 / G-2 | Bahan Racun Paralis Mematikan Tier 3 | 18 Tael Giok Putih |
 
 ---
 
-### 🟠 Tier 4 – Tier 5 — Advanced Spiritual Herbs (Ranah Inti Emas & Jiwa Nascent)
+### 🟠 5.4 Tier 4 – Tier 5 — Advanced Spiritual Herbs (Ranah Inti Emas & Jiwa Nascent)
 
-| Nama Tanaman | Tier | Waktu Tumbuh | Konsumsi Qi / Turn | Syarat Tanah | Hasil Panen & Kegunaan | Harga Pasar |
+| Nama Tanaman | Tier | Waktu Tumbuh | Konsumsi Qi / Turn | Syarat Tanah | Hasil Panen & Kegunaan Utama Alkimia | Harga Pasar Standar |
 |---|---|---|---|---|---|---|
-| **Buah Darah Naga Tanah** | Tier 4 | 20 Turn | 120 Qi | G-2 / G-4 | Bahan Pil Penguat Sumsum Naga (+100 HP Permanent) | 1 Batu Spiritual Menengah |
-| **Teratai Jiwa Emas** | Tier 4 | 18 Turn | 100 Qi | G-6 (Holy Soil) | Bahan Pil Breakthrough Inti Emas & Pelindung Jiwa | 80 Batu Spiritual Rendah |
-| **Ginseng Ungu Seribu Tahun**| Tier 5 | 30 Turn | 250 Qi | G-6 (Holy Soil) | Bahan Pil Breakthrough Jiwa Nascent & Umur +50 Tahun | 5 Batu Spiritual Menengah |
-| **Jamur Es Jiwa Murni** | Tier 5 | 25 Turn | 200 Qi | G-3 (Frost Soil) | Bahan Pil Pembersih Karma Buruk & Penawar Racun Jiwa | 4 Batu Spiritual Menengah |
+| **Buah Darah Naga Tanah** | Tier 4 | 20 Turn | 120 Qi | G-2 / G-4 | Bahan Pil Penguat Sumsum Naga (+100 HP Permanent) | 1 Batu Spiritual Rendah |
+| **Teratai Jiwa Emas** | Tier 4 | 18 Turn | 100 Qi | G-6 (Holy Soil) | Bahan Pil Breakthrough Inti Emas & Pelindung Jiwa | 80 Tael Giok Putih |
+| **Ginseng Ungu Seribu Tahun**| Tier 5 | 30 Turn | 250 Qi | G-6 (Holy Soil) | Bahan Pil Breakthrough Jiwa Nascent & Umur +50 Tahun | 5 Batu Spiritual Rendah |
+| **Jamur Es Jiwa Murni** | Tier 5 | 25 Turn | 200 Qi | G-3 (Frost Soil) | Bahan Pil Pembersih Karma Buruk & Penawar Racun Jiwa | 4 Batu Spiritual Rendah |
 
 ---
 
-### 🔴 Tier 6 – Tier 9 — Sovereign & Immortal Herbs (Ranah Formasi Roh hingga Huangji Sovereign)
+### 🔴 5.5 Tier 6 – Tier 9 — Sovereign & Immortal Herbs (Ranah Formasi Roh hingga Huangji Sovereign)
 
-| Nama Tanaman | Tier | Waktu Tumbuh | Konsumsi Qi / Turn | Syarat Tanah | Hasil Panen & Kegunaan | Harga Pasar |
+| Nama Tanaman | Tier | Waktu Tumbuh | Konsumsi Qi / Turn | Syarat Tanah | Hasil Panen & Kegunaan Utama Alkimia | Harga Pasar Standar |
 |---|---|---|---|---|---|---|
-| **Teratai Sembilan Warna** | Tier 6 | 50 Turn | 500 Qi | G-6 (Holy Soil) | Bahan Utama Pil Rekonstruksi Tubuh Abadi | 20 Batu Spiritual Menengah |
-| **Buah Hukum Kehampaan** | Tier 7 | 80 Turn | 1.200 Qi | G-6 (Holy Soil) | Bahan Pil Pemahaman Law Origin (+1 Tier Law) | 2 Batu Spiritual Tinggi |
-| **Teratai Tribulasi Surgawi**| Tier 8 | 120 Turn | 3.000 Qi | G-6 (Holy Soil) | Meredam Damage Petir Tribulasi Surgawi sebesar 50% | 10 Batu Spiritual Tinggi |
+| **Teratai Sembilan Warna** | Tier 6 | 50 Turn | 500 Qi | G-6 (Holy Soil) | Bahan Utama Pil Rekonstruksi Tubuh Abadi | 20 Batu Spiritual Rendah |
+| **Buah Hukum Kehampaan** | Tier 7 | 80 Turn | 1.200 Qi | G-6 (Holy Soil) | Bahan Pil Pemahaman Law Origin (+1 Tier Law) | 2 Batu Spiritual Menengah |
+| **Teratai Tribulasi Surgawi**| Tier 8 | 120 Turn | 3.000 Qi | G-6 (Holy Soil) | Meredam Damage Petir Tribulasi Surgawi sebesar 50% | 10 Batu Spiritual Menengah |
 | **Buah Abadi Huangji** | Tier 9 | 200 Turn | 8.000 Qi | G-6 (Holy Soil) | Bahan Utama Pil Kaisar Abadi (Penguasa Dunia) | Tak Ternilai / Lelang Istana |
 
 ---
 
-## 💧 6. Mekanik Penyiraman Qi & Injeksi Elemen
+## 💧 6. Mekanik Penyiraman Qi & Resonansi Elemen
 
 1. **Penyiraman Standar (Qi Murni)**:
    - Pemain menguras poin Qi sesuai angka pada tabel tanaman.
@@ -164,12 +173,15 @@ Saat tanaman mencapai siklus panen penuh:
 2. AI GM menghitung jumlah hasil panen berdasarkan keberadaan pupuk dan kelas tanah.
 3. **Pencatatan Wajib**: AI GM mencantumkan entri hasil panen ke dalam profil/inventory pemain dalam format:
    ```text
-   [Nama Item] (Grade: [Biasa/Unggul/Murni]) × [Jumlah] | Origin: Hasil Pertanian Petak [X] di [Lokasi] | Timestamp: Tahun X, Bulan Y
+   [Item Origin Log — Hasil Panen Kebun]
+   - Item: Teratai Es Bintang (Grade: High) ×2
+   - Sumber: Pertanian Petak 3 (Pegunungan Es Bintang)
+   - Timestamp: Tahun 1, Bulan 5, Hari 12
    ```
 
 ---
 
-## 📝 8. Checklist Validasi AI GM untuk Pertanian
+## 🛡️ 8. Checklist Validasi AI GM untuk Pertanian
 
 - [ ] Apakah jenis tanah di lokasi tempat menanam mendukung Tier tanaman yang ditanam?
 - [ ] Apakah konsumsi Qi / Air penyiraman per Turn telah dipotong dari profil pemain secara akurat?
