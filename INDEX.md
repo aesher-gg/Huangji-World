@@ -75,6 +75,7 @@ Fetch modul faksi berikut saat pemain **berada di markas faksi, menjalankan misi
 | **`36`** | **Rumah Gadai Giok Sejuk**<br>`36_RUMAH_GADAI_GIOK_SEJUK.md` | Jasa Pegadaian & Penukaran Aset Spirit | [`Link RAW`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/36_RUMAH_GADAI_GIOK_SEJUK.md?v=1) |
 | **`37`** | **Balai Tabib Pengembara**<br>`37_BALAI_TABIB_PENGEMBARA_HUANGJI.md` | Serikat Medis & Pengobatan Luka Qi | [`Link RAW`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/37_BALAI_TABIB_PENGEMBARA_HUANGJI.md?v=1) |
 | **`38`** | **Persekutuan Sanxiu Bebas**<br>`38_PERSEKUTUAN_SANXIU_BEBAS.md` | Aliansi Kultivator Independen / Mandiri | [`Link RAW`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/38_PERSEKUTUAN_SANXIU_BEBAS.md?v=1) |
+| **`43`** | **Paviliun Lelang Suci**<br>`43_PAVILIUN_LELANG_SUCI_HUANGJI.md` | Jaringan Pelelangan Pusaka & Token VIP | [`Link RAW`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/43_PAVILIUN_LELANG_SUCI_HUANGJI.md?v=1) |
 
 ---
 
