@@ -1,99 +1,177 @@
 # 🏜️ 07. Gurun Pasir Emas (Golden Sand Desert) — Huangji-World
 
-> **Status File:** Modul Lore Wilayah (Elemen Bumi, Logam Emas, & Badai Pasir Ilusi)
-> **Versi:** 4.0 (Huangji Core Edition)
-> **Spesialisasi Wilayah:** Kultivasi Qi Bumi / Logam, Penambangan Batu Spiritual, Perdagangan Kafilah, & Penggalian Situs Kuno
-> **Rujukan Silang:** `00_CORE_RULES_AI_GM.md`, `12_CULTIVATION_LAW_SYSTEM.md`, `13_ECONOMY_SYSTEM.md`, `16_BESTIARY.md`, `31_SEKTE_BENTENG_PASIR.md`, `32_PERGURUAN_PANAH_OASE.md`
+> **Modul:** 07 — Golden Sand Desert (Gurun Pasir Emas)
+> **Cakupan:** Geografi Elemen Bumi & Logam Emas, Kota Oasis Emas, pasar ilusi, piramida tertimbun, node emas M-6, & badai pasir
+> **Prinsip:** Anti-Cheat Enforced — Travel Time Enforced — Mirage Drift Bound — Currency Hierarchy
+> **Rujukan Utama:** [`INDEX.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/INDEX.md?v=1)
+> **Rujukan Silang:**
+> - [`00_CORE_RULES_AI_GM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/00_CORE_RULES_AI_GM.md?v=1) (Aturan Wajib AI GM & Format Respon)
+> - [`12_CULTIVATION_LAW_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/12_CULTIVATION_LAW_SYSTEM.md?v=1) (QiCap & Skala 10 Ranah Universal)
+> - [`13_ECONOMY_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/13_ECONOMY_SYSTEM.md?v=1) (Mata Uang Tael, Batu Spiritual, & Soft-Cap Kekayaan)
+> - [`14_VITALITY_HUNGER_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/14_VITALITY_HUNGER_SYSTEM.md?v=1) (Mekanik HP, Kelaparan & Satiety Decay)
+> - [`15_COMBAT_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/15_COMBAT_SYSTEM.md?v=1) (Sistem Pertarungan & Formula Attack Power Elemen Bumi/Pasir)
+> - [`16_BESTIARY.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/16_BESTIARY.md?v=1) (Katalog Spirit Beast & Fauna Gurun)
+> - [`19_ALCHEMY_FORGING_ARRAY_SYSTEM.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/19_ALCHEMY_FORGING_ARRAY_SYSTEM.md?v=1) (Mineral Emas Abadi M-6 & Formasi Segel Pasir)
+> - [`31_SEKTE_BENTENG_PASIR.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/31_SEKTE_BENTENG_PASIR.md?v=1) (Sekte Utama Elemen Bumi & Pasir)
+> - [`32_PERGURUAN_PANAH_OASE.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/32_PERGURUAN_PANAH_OASE.md?v=1) (Perguruan Seni Panah Gurun)
 
 ---
 
 ## 🏜️ I. Ekologi & Keunikan Gurun Pasir Emas
 
-Gurun Pasir Emas (*Golden Sand Desert*) bukan sekadar bentangan pasir kering, melainkan lautan bukit pasir bergerak yang pasirnya mengandung serbuk emas spiritual dan kristal mineral bumi murni. Di siang hari, panas matahari membakar pasir hingga memancarkan kilau keemasan, sedangkan di malam hari, suhu merosot tajam hingga di bawah titik beku.
+Gurun Pasir Emas (*Golden Sand Desert*) adalah lautan bukit pasir bergerak yang pasirnya mengandung serbuk emas spiritual dan kristal mineral bumi murni di Benua Huangji. Di siang hari, panas matahari membakar pasir hingga memancarkan kilau keemasan, sedangkan di malam hari, suhu merosot tajam hingga di bawah titik beku.
 
-* **Modifier Kepadatan Qi**: `+35% Efisiensi Kultivasi Qi Bumi / Logam, +20% Hasil Penambangan Batu Spiritual`
-* **Phenomena Khusus**: *Lautan Bayangan Ilusi (Mirage Drift)* — Setiap pergantian siang ke malam, bukit pasir bergeser hingga peta wilayah berubah secara acak.
-* **Populasi Wilayah**: ± 22 Juta Jiwa (Kultivator Pasir, Pedagang Kafilah, Penambang Kristal, & Suku Nomaden Gurun)
-* **Kompabilitas Ranah**: Skala 10 Ranah Universal (Realm 0 Fana hingga Realm 9 Sovereign)
+| Statistik Wilayah | Nilai / Ukuran Resmi | Keterangan & Catatan |
+|---|---|---|
+| **Luas Wilayah Total** | ± 9,4 juta li² | Bukit pasir bergerak, oasis mata air, & piramida tertimbun. |
+| **Populasi Total** | ± 22 juta jiwa | Kultivator Pasir/Bumi, pedagang kafilah, penambang emas M-6, & suku nomaden. |
+| **Modifier Kepadatan Qi** | `+35% Qi Bumi / Logam, +20% Hasil Penambangan Batu Spirit` | Akselerasi teknik Hukum Bumi & bonus ekstraksi mineral murni ([`19`]). |
+| **Kapasitas Kekayaan Regional**| ± 150 Juta Tael | Soft-cap pasar komoditas emas spirit, kurma emas, & peta oasis ([`13`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/13_ECONOMY_SYSTEM.md?v=1)). |
+| **Phenomena Khusus** | *Mirage Drift (Lautan Bayangan)* | Setiap pergantian siang/malam, bukit pasir bergeser merubah peta wilayah. |
 
 ---
 
-## 📍 II. Sub-Wilayah, Kota, & Katalog NPC Terperinci
+### 🗺️ Peta Jarak Internal (Dari Kota Oasis Emas)
+
+Setiap klaim pergerakan antar sub-lokasi di Gurun Pasir Emas wajib mengikuti estimasi jarak dan waktu tempuh berikut:
+
+| Sub-Lokasi Tujuan | Jarak dari Kota Oasis Emas | Waktu Tempuh (Jalan Kaki / Unta) | Waktu Tempuh (Kultivator Terbang, Golden Core+) |
+|---|---|---|---|
+| **Pasar Bayangan Ilusi (Mirage Bazaar)** | 160 li (Lokasi Berpindah) | 1,5–2 hari | 2 jam |
+| **Punggung Buntut Kalajengking (Ridge)** | 220 li | 2 hari | 2,8 jam |
+| **Reruntuhan Piramida Tertimbun (Ruins)** | 300 li | 3 hari | 3,8 jam |
+| **Oase Rahasia Lembah Emas (Golden Springs)**| 240 li | 2,5 hari | 3 jam |
+| **Lautan Badai Pasir Liar (Wild Sand Drift)**| 420 li | 4 hari | 5,2 jam |
+
+---
+
+## 📍 II. Lokasi, Sub-Wilayah & Katalog NPC Terperinci
 
 ### 🕌 1. Kota Oasis Emas (Golden Oasis City — Pusat Sekte & Perdagangan)
-Kota megah berbenteng pasir berdinding tebal tiga lapis yang dibangun melingkari Danau Air Murni Matahari. Merupakan pusat perbankan kafilah, pasar budak, dan pelelangan kristal bumi.
 
-| Nama NPC | Peran & Jabatan | Umur | Realm & Stage (Universal) | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Ketua Sha Wuji** | Pemimpin Sekte Benteng Pasir | 250 | Realm 7 Void Transform, Mid Stage | **2.343.750**| *Tangan Raksasa Pasir Emas*| Berwibawa, tegas pada perampok, dermawan pada pedagang patuh. |
-| **Master Panah Hassan**| Master Perguruan Panah Oase | 140 | Realm 5 Nascent Soul, Early Stage | **62.500** | *Panah Gelombang Badai Pasir*| Cerdik, tajam, ahli memanah sasaran jarak 1.000 Li. |
-| **Saudagar Tariq** | Kepala Serikat Kafilah Emas | 62 | Realm 3 Fondasi Jiwa, Peak Stage | **5.000** | *Perisai Tembok Pasir Kokoh*| Cerdas, ramah, kenal semua rute air bawah tanah rahasia. |
-| **Gadis Bintang Fatima**| Penjual Peta & Penjinak Beast | 22 | Realm 3 Fondasi Jiwa, Early Stage | **2.500** | *Sutra Penjinak Kalajengking*| Lincah, ceria, menguasai bahasa suku nomaden gurun. |
+Kota megah berbenteng pasir berdinding tebal tiga lapis yang dibangun melingkari Danau Air Murni Matahari. Merupakan pusat perbankan kafilah, pasar perhiasan emas, dan markas pusat Sekte Benteng Pasir ([`31`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/31_SEKTE_BENTENG_PASIR.md?v=1)) dan Perguruan Panah Oase ([`32`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/32_PERGURUAN_PANAH_OASE.md?v=1)).
+
+#### 👤 Catalog NPC Kota Oasis Emas
+
+| Nama NPC | Peran & Jabatan | Umur | Ranah & Stage (Indonesian / English) | Qi Cap | Teknik Andalan | Karakteristik, Sifat & Panduan AI GM |
+|---|---|---|---|---|---|---|
+| **Ketua Sha Wuji** | Pemimpin Sekte Benteng Pasir | 250 | Realm 7 Void Transform, Mid Stage | **2.343.750**| *Tangan Raksasa Pasir Emas* — Tamparan telapak pasir raksasa penimbun musuh | Berwibawa, tegas pada perampok, dermawan pada pedagang patuh. **Instruksi AI GM:** Bicara tenang dan dalam; memberikan pengawalan bagi kafilah yang membayar retribusi Tael Giok Putih. |
+| **Master Panah Hassan**| Master Perguruan Panah Oase | 140 | Realm 5 Nascent Soul, Early Stage | **62.500** | *Panah Gelombang Badai Pasir* — Tembakan panah angin pemicu pusaran pasir | Cerdik, tajam, ahli memanah sasaran jarak 1.000 Li. **Instruksi AI GM:** Menguji ketepatan memanah pengembara; memberikan busur tempaan pasir jika lolos tes. |
+| **Saudagar Tariq** | Kepala Serikat Kafilah Emas | 62 | Realm 3 Found Est, Peak Stage | **5.000** | *Perisai Tembok Pasir Kokoh* — Dinding pasir penyerap guncangan perampok | Cerdas, ramah, kenal semua rute air bawah tanah rahasia. **Instruksi AI GM:** Menyewakan Unta Spirit dan menjual *Air Murni Oase* seharga 5 Tael Perak. |
+| **Gadis Bintang Fatima**| Penjual Peta & Penjinak Beast | 22 | Realm 3 Found Est, Early Stage | **2.500** | *Sutra Penjinak Kalajengking* — Nyanyian suling penjinak kalajengking pasir | Lincah, ceria, menguasai bahasa suku nomaden gurun. **Instruksi AI GM:** Menjual *Peta Oase Rahasia* ber-Item Origin Log seharga 10 Tael Giok Putih. |
 
 ---
 
 ### 🏜️ 2. Pasar Bayangan Ilusi (Mirage Bazaar — Lokasi Berpindah-Pindah)
-Pasar malam rahasia yang hanya muncul saat bulan purnama di bukit pasir bergeser. Tempat jual beli pusaka haram dan kitab kuno terlarang.
 
-| Nama NPC | Peran & Jabatan | Umur | Realm & Stage (Universal) | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Nenek Ilusi Yazi** | Pengelola Pasar Bayangan | 185 | Realm 5 Nascent Soul, Peak Stage | **93.750** | *Kabut Bayangan Seribu Oase* | Misterius, hanya menerima pembayaran batu spirit murni. |
+Pasar malam rahasia yang hanya muncul saat bulan purnama di bukit pasir bergeser. Tempat jual beli pusaka kuno, racun pasir, dan kitab terlarang.
+
+#### 👤 Catalog NPC Pasar Bayangan Ilusi
+
+| Nama NPC | Peran & Jabatan | Umur | Ranah & Stage (Indonesian / English) | Qi Cap | Teknik Andalan | Karakteristik, Sifat & Panduan AI GM |
+|---|---|---|---|---|---|---|
+| **Nenek Ilusi Yazi** | Pengelola Pasar Bayangan | 185 | Realm 5 Nascent Soul, Peak Stage | **125.000** | *Kabut Bayangan Seribu Oase* — Proyeksi ilusi pemutus penglihatan musuh | Misterius, hanya menerima pembayaran batu spirit murni. **Instruksi AI GM:** Menjual barang antik tanpa Origin Log seharga 15% dari `FinalPrice` ([`13`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/13_ECONOMY_SYSTEM.md?v=1)). |
 
 ---
 
 ### 🏛️ 3. Reruntuhan Piramida Tertimbun (Sunken Pyramid Ruins — 300 Li dari Oasis)
+
 Situs istana raja pasir purba yang tertimbun di bawah laut pasir, dipenuhi jebakan pasir hisap dan mumi prajurit batu.
 
-| Nama NPC | Peran & Jabatan | Umur | Realm & Stage (Universal) | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Penjaga Batu Kuno** | Spirit Guardian Piramida (Entity)| 1.200+| Realm 6 Formasi Roh, Mid Stage | **468.750** | *Hukuman Badai Pasir Emas* | Kaku, menguji keberanian siapa pun yang memasuki makam. |
+#### 👤 Catalog NPC Reruntuhan Piramida Tertimbun
+
+| Nama NPC | Peran & Jabatan | Umur | Ranah & Stage (Indonesian / English) | Qi Cap | Teknik Andalan | Karakteristik, Sifat & Panduan AI GM |
+|---|---|---|---|---|---|---|
+| **Penjaga Batu Kuno** | Spirit Guardian Piramida | 1.200+| Realm 6 Spirit Formation, Mid Stage | **468.750** | *Hukuman Badai Pasir Emas* — Gelombang guncangan peremuk tulang penyusup | Kaku, menguji keberanian siapa pun yang memasuki makam. **Instruksi AI GM:** Bertindak sebagai Boss Encounter rahasia; menyerang jika pemain merusak sarcophagus raja pasir. |
 
 ---
 
-### 🏴‍☠️ 4. Punggung Buntut Kalajengking (Scorpion Tail Ridge — Sarang Perampok)
+### 🏴‍☠️ 4. Punggung Buntut Kalajengking (Scorpion Tail Ridge — 220 Li dari Oasis)
+
 Jajaran bukit batu hitam runcing tempat bersembunyinya kawanan perampok *Kalajengking Merah*.
 
-| Nama NPC | Peran & Jabatan | Umur | Realm & Stage (Universal) | Qi Cap | Teknik Andalan | Karakteristik & Sifat |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Chief Red Scorpion** | Pemimpin Perampok Gurun | 46 | Realm 3 Fondasi Jiwa, Peak Stage | **5.000** | *Sengatan Duri Pasir Beracun*| Kejam, serakah, penunggang Kalajengking Raksasa T3. |
+#### 👤 Catalog NPC Punggung Buntut Kalajengking
+
+| Nama NPC | Peran & Jabatan | Umur | Ranah & Stage (Indonesian / English) | Qi Cap | Teknik Andalan | Karakteristik, Sifat & Panduan AI GM |
+|---|---|---|---|---|---|---|
+| **Chief Red Scorpion** | Pemimpin Perampok Gurun | 46 | Realm 3 Found Est, Peak Stage | **5.000** | *Sengatan Duri Pasir Beracun* — Tusukan tombak berduri racun pelumpuh Dantian | Kejam, serakah, penunggang Kalajengking Raksasa Tier 3. **Instruksi AI GM:** Menyerang kafilah dagang; melarikan diri ke dalam bukit pasir jika HP di bawah 20%. |
+
+---
+
+### 🌴 5. 🆕 Oase Rahasia Lembah Emas (Hidden Golden Springs — 240 Li dari Oasis)
+
+Mata air tersembunyi di balik celah tebing basal yang menyegarkan kembali tubuh dan memulihkan dehidrasi berat.
+
+#### 👤 Catalog NPC Oase Rahasia Lembah Emas
+
+| Nama NPC | Peran & Jabatan | Umur | Ranah & Stage (Indonesian / English) | Qi Cap | Teknik Andalan | Karakteristik, Sifat & Panduan AI GM |
+|---|---|---|---|---|---|---|
+| **Pertapa Mata Air Ali** | Penjaga Oase Rahasia | 110 | Realm 4 Golden Core, Mid Stage | **18.750** | *Pancaran Air Matahari* — Pemulihan Satiety & HP instan | Ramah, menyukai teh kurma, melindungi oase dari pencemaran. **Instruksi AI GM:** Membantu memulihkan status Dehidrasi pemain secara gratis jika pemain bersikap sopan. |
+
+---
+
+### 🌪️ 6. 🆕 Lautan Badai Pasir Liar (Wild Sandstorm Drift — 420 Li dari Oasis)
+
+Zat zona terisolasi di mana topan pasir bergeser secara konstan pemicu jebakan pasir hisap.
+
+⚠️ **Bahaya Alam Hardcore (Quicksand Sinkhole):** Melintasi bukit pasir liar memicu check **1d20**. Roll **1 – 3** membuat pemain terperangkap di Pasir Hisap (Memerlukan Strength/Agility Check; jika gagal 2 turn, tersedot ke Gua Bawah Tanah dengan Damage -30% HP).
 
 ---
 
 ## ☣️ III. Bahaya Lingkungan Hardcore & Terlarang
 
 ### ☀️ 1. Dehidrasi Panas Terik Siang Hari (Severe Dehydration Hazard)
-* **Mekanik Dehidrasi**: Berada di luar oasis antara jam 09:00 – 16:00 tanpa mengonsumsi *Air Murni Oase* atau *Pil Penawar Dehidrasi*, memicu penurunan **Satiety +5% per Jam** dan debuff **Fatigue** (-20% Attack Power).
+* **Mekanik Dehidrasi**: Berada di luar oasis antara jam 09:00 – 16:00 tanpa mengonsumsi *Air Murni Oase* atau *Pil Penawar Dehidrasi*, memicu **Satiety Loss +5% per Jam** ([`14`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/14_VITALITY_HUNGER_SYSTEM.md?v=1)) dan debuff **Fatigue (-20% Attack Power)**.
 
 ### 🌪️ 2. Pasir Hisap Bergerak (Quicksand Sinkhole)
-* **Mekanik Quicksand**: Saat melintasi bukit pasir acak, AI GM melakukan roll **1d20**. Jika roll **1 – 2**, pemain terperangkap di Pasir Hisap:
-  - Memerlukan **Strength / Agility Check** untuk bebas.
-  - Jika gagal dalam 2 Turn, pemain tersedot ke Gua Bawah Tanah (-30% HP & Terpisah dari kelompok).
+* **Mekanik Quicksand**: Check **1d20** saat memasuki area pasir liar. Kegagalan meloloskan diri menyedot pemain ke Gua Bawah Tanah.
 
 ---
 
 ## ⛏️ IV. Titik Penambangan & Sumber Daya Mineral (Mining Nodes)
 
-| Nama Node / Area | Material Utama | Grade / Tier (`19`) | Syarat Akses & Perizinan |
+Gurun Pasir Emas adalah lokasi utama ekstraksi Emas Spirit M-6 ([`19`]):
+
+### 💎 Matriks Node Penambangan Mineral Regional
+
+| Nama Node / Area | Kelas Mineral Ores (`19`) | Hasil Tambang Utama | Syarat Akses & Perizinan |
 |---|---|---|---|
-| **Kawah Pasir Kristal** | Kristal Mineral Bumi | M-2 (Spiritual Ore) | Bebas untuk penambang lokal. |
-| **Tambang Emas Abadi** | Emas Spirit Abadi | M-6 (Sovereign Metal) | Izin Sekte Benteng Pasir (+50 Reputasi). |
+| **Kawah Pasir Kristal** | M-2 (Spiritual Ore) | Kristal Mineral Bumi | Bebas untuk penambang registered. |
+| **Tambang Emas Abadi** | M-6 (Sovereign Metal) | Emas Spirit Abadi M-6 | Izin Sekte Benteng Pasir (+50 Reputasi). |
+
+> 📌 **Aturan Item Origin Log Material Emas:** Setiap Emas Spirit M-6 dan Kristal Bumi yang ditambang **WAJIB** dicatat pada Item Origin Log sheet karakter sebelum ditransaksikan ([`13`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/13_ECONOMY_SYSTEM.md?v=1)).
 
 ---
 
 ## 📜 V. Hook Misi Regional (Golden Sand Quests)
 
-1. **Pengawalan Kafilah Emas**:
-   - *Tugas*: Kawal kafilah Saudagar Tariq dari Kota Oasis Emas menembus Lembah Buntut Kalajengking.
-   - *Imbalan*: 25 Batu Spiritual Rendah + *Peta Oase Rahasia*.
+1. **📜 Misi 1: Pengawalan Kafilah Emas (Risiko: Rendah)**
+   - *Tugas*: Kawal kafilah Saudagar Tariq dari Kota Oasis Emas menembus Punggung Buntut Kalajengking.
+   - *Syarat Akses*: Pemain Ranah Pembersihan Tubuh (Realm 1) / Pengumpulan Qi (Realm 2).
+   - *Imbalan*: 20 Tael Giok Putih + *Peta Oase Rahasia* + Reputasi Serikat +15.
 
-2. **Penggalian Reruntuhan Piramida**:
-   - *Tugas*: Ambil *Kristal Bumi Purba* dari dalam Reruntuhan Piramida Tertimbun.
-   - *Imbalan*: 5 Batu Spiritual Menengah + *Pil Tempa Tulang Besi* (Tier 3).
+2. **📜 Misi 2: Pembasmian Perampok Red Scorpion (Risiko: Sedang)**
+   - *Tugas*: Tumpas Chief Red Scorpion dan amankan Unta Spirit jarahan.
+   - *Syarat Akses*: Pemain Ranah Fondasi Jiwa (Realm 3).
+   - *Imbalan*: 2 Batu Spiritual Rendah + *Sengatan Duri Pasir* (Tier 3) + Reputasi Kota +30.
+
+3. **📜 Misi 3: Penggalian Reruntuhan Piramida (Risiko: Sedang)**
+   - *Tugas*: Dapatkan *Kristal Bumi Purba* dari dalam Reruntuhan Piramida Tertimbun di tengah jebakan pasir.
+   - *Syarat Akses*: Ranah Fondasi Jiwa Peak / Inti Emas.
+   - *Imbalan*: 5 Batu Spiritual Rendah + *Pil Tempa Tulang Besi* (Tier 3) + 3 Tael Giok Putih.
+
+4. **📜 Misi 4: Penambangan Emas Spirit Abadi M-6 (Risiko: Tinggi)**
+   - *Tugas*: Ekstraksi 1 kantong *Emas Spirit Abadi* (M-6) dari Tambang Emas Abadi di tengah ancaman dehidrasi ekstrem.
+   - *Syarat Akses*: Ranah Inti Emas (Realm 4) atau izin resmi Sekte Benteng Pasir.
+   - *Imbalan*: 25 Batu Spiritual Rendah + *Resep Alkimia Pil Terobosan Inti Emas* + Reputasi +40.
 
 ---
 
-## 📝 VI. Checklist Validasi AI GM untuk Modul 07
+## 🛡️ VI. Checklist Validasi AI GM untuk Modul 07
 
-- [ ] Apakah seluruh status NPC menggunakan Ranah Universal (Realm 0–9) dan Qi Cap yang tepat?
-- [ ] Apakah efek Dehidrasi Siang Hari & roll Pasir Hisap (*1d20*) diterapkan secara akurat saat eksplorasi?
-- [ ] Apakah pergeseran bukit pasir (*Mirage Drift*) diperhitungkan dalam navigasi peta pemain?
+- [ ] Apakah seluruh status NPC menggunakan Ranah Universal bilingual (Indonesian / English) dan Qi Cap yang tepat sesuai formula v3.0 (`QiCap = 50 × 5^(Realm-1) × StageMultiplier`)?
+- [ ] Apakah estimasi jarak Li dan waktu perjalanan dari Kota Oasis Emas dihitung secara sah per Turn?
+- [ ] Apakah efek Dehidrasi Siang Hari (*Satiety Loss +5%/jam*) & roll Pasir Hisap (*1d20*) diterapkan secara akurat saat eksplorasi?
+- [ ] Apakah hasil penambangan Emas Spirit M-6 dicatat secara lengkap pada **Item Origin Log**?
+- [ ] Apakah transaksi ekonomi menggunakan hirarki mata uang Tael Perak, Tael Giok Putih, & Batu Spiritual secara sah sesuai modul [`13`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/13_ECONOMY_SYSTEM.md?v=1)?
+- [ ] Apakah seluruh rujukan file `.md` menggunakan format RAW GitHub link Huangji-World dengan suffix `?v=1`?
