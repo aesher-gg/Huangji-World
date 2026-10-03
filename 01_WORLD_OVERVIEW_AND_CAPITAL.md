@@ -48,7 +48,7 @@
 - **Gurun Pasir Emas ↔ Puncak Langit Surgawi:** 2.100 li (jalur angin topan pasir)
 - **Kepulauan Palung Samudra ↔ Dataran Hijau Abadi:** 1.800 li (+jalur selat perairan)
 
-> 📌 **Catatan anti-cheat perjalanan:** Setiap klaim perjalanan atau pemindahan bahan dari wilayah tertentu WAJIB konsisten dengan tabel jarak & waktu tempuh di atas — tidak ada perjalanan "instan" tanpa alasan naratif yang sah (seperti penggunaan *Kapal Terbang Spirit* [`48`] atau *Array Teleportasi Kuno* [`19`] yang tervalidasi AI GM).
+> 📌 **Catatan anti-cheat perjalanan:** Setiap klaim perjalanan atau pemindahan bahan dari wilayah tertentu WAJIB konsisten dengan tabel jarak & waktu tempuh di atas — tidak ada perjalanan "instan" tanpa alasan naratif yang sah (seperti penggunaan *Kapal Terbang Spirit* [`48`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/48_SPIRIT_VESSELS_AND_AIRSHIPS.md?v=1) atau *Array Teleportasi Kuno* [`19`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/19_ALCHEMY_FORGING_ARRAY_SYSTEM.md?v=1) yang tervalidasi AI GM).
 
 ---
 
