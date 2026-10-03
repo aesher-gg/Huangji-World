@@ -147,7 +147,7 @@ Semua transaksi dan pembuatan item pemulihan wajib merujuk pada `13_ECONOMY_SYST
 
 | Nama Item / Jasa | Fungsi Pemulihan | Harga Pasar Standar |
 |---|---|---|
-| **Roti Kering / Daging Asap** | Memulihkan +30% Satiety (Hanya untuk Realm 0–2) | 5 Koin Perak |
+| **Roti Kering / Daging Asap / Bubur Sederhana Dan Olahan Makan Lainya** | Memulihkan +30% Satiety (Hanya untuk Realm 0–2) | 5 Koin Perak |
 | **Daging Spirit Beast Tier-1** | Memulihkan +60% Satiety + 20 Poin Qi | 1 Batu Spiritual Rendah |
 | **Pil Pemulihan Darah (Tier 1)** | Memulihkan +150 HP secara instan | 5 Batu Spiritual Rendah |
 | **Pil Pemulihan Darah (Tier 2)** | Memulihkan +800 HP + menyembuhkan Luka Dalam | 25 Batu Spiritual Rendah |
