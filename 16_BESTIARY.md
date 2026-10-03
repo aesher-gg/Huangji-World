@@ -34,18 +34,29 @@ AmbushChance = BaseChance (5%) × DangerModifier × TimeModifier × NoiseModifie
 
 ## 🌐 2. Spesies Umum Lintas Wilayah (Universal / Cross-Region Beasts)
 
-Spesies ini dapat ditemukan di **hampir seluruh wilayah Benua Huangji** (hutan, jalan desa, dan pegunungan umum):
+Spesies ini dapat ditemukan di **hampir seluruh wilayah Benua Huangji** (hutan, jalan desa, gurun, rawa, pegunungan, dan pantai umum) dari Tier 0 (Fana) hingga Tier 5 (Setara Ranah Jiwa Nascent):
 
-| Nama Spesies | Kategori | Tier (Ranah Setara) | HP | Atk Power | Taming Difficulty | Kemampuan Utama & Deskripsi | Drop Loot Utama |
+| Nama Spesies | Kategori Jenis | Tier (Ranah Setara) | HP | Atk Power | Taming LV | Kemampuan Utama & Deskripsi | Drop Loot Utama |
 |---|:---:|:---:|:---:|:---:|:---:|---|---|
-| **Ayam Hutan Fana** | 🐺 Wild Beast | Tier 0 (Fana) | 25 | 4 | Sangat Mudah (LV 1) | Ayam liar pemakan serangga. Berisik saat terkejut. | Daging Ayam Fana (+10% Satiety), Bulu |
-| **Kelinci Padang Rumput** | 🐺 Wild Beast | Tier 0 (Fana) | 30 | 5 | Sangat Mudah (LV 1) | Lincah dan cepat masuk ke lubang tanah. | Daging Kelinci Fana (+10% Satiety) |
-| **Babi Hutan Taring Besi** | 🐺 Wild Beast | Tier 1 (Body Refining) | 90 | 18 | Mudah (LV 1) | *Serudukan Lurus*: Menyeruduk target dengan taring ganda. | Daging Babi Hutan (+25% Satiety), Taring Besi |
-| **Serigala Kelabu Liar** | 🐺 Wild Beast | Tier 1 (Body Refining) | 85 | 20 | Mudah (LV 1) | Berburu dalam kelompok (3–5 ekor). *Mencakar & Menggigit*. | Kulit Serigala Kasar, Daging Serigala |
-| **Ular Sawah Hijau** | 🐺 Wild Beast | Tier 1 (Body Refining) | 60 | 15 | Mudah (LV 1) | Bersembunyi di semak-semak. *Patukan Beracun Ringan*. | Kantong Empedu Ular, Kulit Ular |
-| **Elang Pengembara** | 🐺 Wild Beast | Tier 1 (Body Refining) | 75 | 16 | Mudah (LV 1) | Mengincar mangsa dari udara. *Sabetan Cakar Udara*. | Bulu Elang, Paruh Keras |
-| **Kera Hutan Cokelat** | 🐺 Wild Beast | Tier 1 (Body Refining) | 80 | 14 | Mudah (LV 1) | Melempar buah keras dan batu ke arah penyusup. | Kulit Kera, Buah Hutan |
-| **Gagak Malam Berbintang**| 🐺 Wild Beast | Tier 1 (Body Refining) | 50 | 12 | Mudah (LV 1) | Terbang saat malam hari. *Kekek Gelisah* (Gagal Stealth).| Bulu Gagak Hitam |
+| **Ayam Hutan Fana** | 🐓 Avian | Tier 0 (Fana) | 25 | 4 | LV 1 | Ayam liar pemakan serangga. Berisik saat terkejut. | Daging Ayam Fana (+10% Satiety), Bulu |
+| **Kelinci Padang Rumput** | 🐇 Beast | Tier 0 (Fana) | 30 | 5 | LV 1 | Lincah dan cepat masuk ke lubang tanah. | Daging Kelinci Fana (+10% Satiety) |
+| **Katak Air Fana** | 🐸 Amphibian | Tier 0 (Fana) | 20 | 3 | LV 1 | Berada di pinggiran sungai/danau fana. | Daging Katak Fana (+10% Satiety) |
+| **Babi Hutan Taring Besi** | 🐗 Beast | Tier 1 (Body Ref) | 90 | 18 | LV 1 | *Serudukan Lurus*: Menyeruduk target dengan taring ganda. | Daging Babi Hutan (+25% Satiety), Taring Besi |
+| **Serigala Kelabu Liar** | 🐺 Beast | Tier 1 (Body Ref) | 85 | 20 | LV 1 | Berburu dalam kelompok (3–5 ekor). *Mencakar & Menggigit*. | Kulit Serigala Kasar, Daging Serigala |
+| **Ular Sawah Hijau** | 🐍 Serpent | Tier 1 (Body Ref) | 60 | 15 | LV 1 | Bersembunyi di semak-semak. *Patukan Beracun Ringan*. | Kantong Empedu Ular, Kulit Ular |
+| **Elang Pengembara** | 🦅 Avian | Tier 1 (Body Ref) | 75 | 16 | LV 1 | Mengincar mangsa dari udara. *Sabetan Cakar Udara*. | Bulu Elang, Paruh Keras |
+| **Kera Hutan Cokelat** | 🐒 Beast | Tier 1 (Body Ref) | 80 | 14 | LV 1 | Melempar buah keras dan batu ke arah penyusup. | Kulit Kera, Buah Hutan |
+| **Gagak Malam Berbintang**| 🦅 Avian | Tier 1 (Body Ref) | 50 | 12 | LV 1 | Terbang saat malam hari. *Kekek Gelisah* (Gagal Stealth).| Bulu Gagak Hitam |
+| **Bunglon Bayang Lintas** | 🦎 Reptile | Tier 2 (Qi Gath) | 130 | 32 | LV 2 | *Kamuflase Sempurna*: Menjadi tidak terlihat selama 2 Turn. | Kulit Bunglon Bayang, Core T1 |
+| **Kelelawar Darah Malam** | 🦇 Avian/Beast | Tier 2 (Qi Gath) | 110 | 28 | LV 2 | *Penghisapan Darah*: Menyerap 20% Damage sebagai HP. | Sayap Kelelawar, Core T1 |
+| **Kelabang Kerangka Hitam**| 🐛 Insect/Gu | Tier 2 (Qi Gath) | 125 | 35 | LV 2 | *Racun Kelumpuhan*: Debuff Slow -20% selama 2 Turn. | Racun Kelabang, Core T1 |
+| **Laba-Lava Sutra Jingga** | 🕷️ Insect | Tier 3 (Found) | 380 | 85 | LV 3 | *Jaring Penjerat Qi*: Mengunci gerakan target (Stun 1 Turn).| Benang Sutra Spirit, Core T2 |
+| **Serigala Bayangan Tanduk**| 🐺 Spirit Beast| Tier 3 (Found) | 420 | 95 | LV 3 | *Tandukan Qi Bayangan*: Membusuk Pertahanan target. | Taring Serigala Tanduk, Core T2 |
+| **Piton Batu Raksasa** | 🐍 Serpent | Tier 3 (Found) | 450 | 90 | LV 3 | *Lilitan Pemutus Tulang*: Damage beruntun per Turn. | Sisik Piton Batu, Core T2 |
+| **Macan Tutul Angin Malam**| 🐆 Spirit Beast| Tier 4 (Golden C)| 1.300 | 240 | LV 4 | *Kecepatan Angin*: Move Speed +40%, Critical Chance +25%.| Kulit Macan Angin, Core T3 |
+| **Kadal Lahar Karat** | 🦎 Elemental | Tier 4 (Golden C)| 1.450 | 230 | LV 4 | *Aura Api Kerak*: Membakar lawan saat diserang jarak dekat. | Sisik Lahar Karat, Core T3 |
+| **Elang Badai Petir Purba**| 🦅 Avian | Tier 5 (Nascent S)| 4.600 | 680 | LV 5 | *Sabetan Badai Petir*: Damage Elemen Petir AoE. | Bulu Elang Badai, Core T4 |
+| **Banteng Batu Dinding** | 🐂 Spirit Beast| Tier 5 (Nascent S)| 5.200 | 620 | LV 5 | *Tembok Batu Abadi*: Defense Murni +150. | Tanduk Banteng Batu, Core T4 |
 
 ---
 
