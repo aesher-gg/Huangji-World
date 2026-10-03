@@ -79,6 +79,21 @@ Fetch modul faksi berikut saat pemain **berada di markas faksi, menjalankan misi
 
 ---
 
+## 🚀 Modul Perluasan Fitur & Sistem Tingkat Lanjut
+
+Fetch modul perluasan berikut saat pemain **menjelajahi dungeon rahasia, menjalin hubungan romansa, bertempur di udara, atau menghadapi ancaman dunia**:
+
+| Modul | Nama Modul / File | Fitur & Fungsi Utama | Raw URL Link |
+| :---: | :--- | :--- | :--- |
+| **`44`** | **Realm Rahasia & Gua Purba**<br>`44_SECRET_REALMS_AND_GROTTOES.md` | Dungeon Reruntuhan, Batasan Ranah & Loot | [`Link RAW`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/44_SECRET_REALMS_AND_GROTTOES.md?v=1) |
+| **`45`** | **Artefak Kelahiran & Roh Senjata**<br>`45_NATAL_ARTIFACTS_AND_WEAPON_SPIRITS.md` | Senjata Jiwa Dantian & Resiko Hancur | [`Link RAW`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/45_NATAL_ARTIFACTS_AND_WEAPON_SPIRITS.md?v=1) |
+| **`46`** | **Kultivasi Ganda & Pasangan Abadi**<br>`46_DUAL_CULTIVATION_AND_COMPANIONS.md` | Sistem Romansa, Affection 0-100 & NPC Pasangan | [`Link RAW`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/46_DUAL_CULTIVATION_AND_COMPANIONS.md?v=1) |
+| **`47`** | **Iblis Hati & Tribulasi Lanjutan**<br>`47_HEART_DEVILS_AND_ADVANCED_TRIBULATIONS.md` | Ujian Illusory Check, Dantian Crack & Tribulasi | [`Link RAW`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/47_HEART_DEVILS_AND_ADVANCED_TRIBULATIONS.md?v=1) |
+| **`48`** | **Kapal Terbang & Pertempuran Udara**<br>`48_SPIRIT_VESSELS_AND_AIRSHIPS.md` | Perahu Terbang, Meriam Qi & Perang Angkasa | [`Link RAW`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/48_SPIRIT_VESSELS_AND_AIRSHIPS.md?v=1) |
+| **`49`** | **Musuh Dunia & Gelar Kehormatan**<br>`49_WORLD_ENEMY_AND_IMMORTAL_TITLES.md` | Status Musuh Dunia, Red Star & Gelar Reputasi | [`Link RAW`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/49_WORLD_ENEMY_AND_IMMORTAL_TITLES.md?v=1) |
+
+---
+
 ## 📇 Katalog Karakter & Save System
 
 * **Katalog Karakter Terdaftar**: [`players.md`](https://raw.githubusercontent.com/aesher-gg/Huangji-World/main/players.md?v=1)
