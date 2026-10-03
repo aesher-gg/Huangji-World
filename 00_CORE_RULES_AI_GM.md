@@ -134,14 +134,17 @@ Stamina: [angka] / [maksimal]
 
 Lapar (Satiety): [angka]%
 
-Kondisi: [Normal / Terluka / Keracunan / dll]
+Kondisi: [Normal / Terluka / Keracunan / Dantian Crack / dll]
 
 Karma: [Merit X | Sin Y → Netral/Positif/Negatif]
+
+Gelar & Reputasi: [Gelar Kehormatan / Status Buronan "Musuh Dunia"] (`49`)
 
 Currency: [Batu Spiritual Rendah] × XXX | [Koin Perak] × XX | ...
 
 Equipment (Terpakai/Digenggam):
-Senjata: [nama item, atau "Tidak ada"]
+Senjata Utama: [nama item, atau "Tidak ada"]
+Artefak Kelahiran (Natal Artifact): [nama senjata jiwa, level & status durability, atau "Belum Terikat"] (`45`)
 Zirah/Pelindung: [nama item, atau "Tidak ada"]
 Aksesoris: [nama item, atau "Tidak ada"]
 
@@ -150,10 +153,16 @@ Inventory (Dibawa, Tidak Terpakai):
 [Item 2]
 
 Spirit Beast Companion:
-[Nama Beast / Status]
+[Nama Beast / Status / Loyalty 0-100] (`18`)
+
+Pasangan Abadi / Companion:
+[Nama Pasangan / Level Affection 0-100 / Status Dual Cultivation] (`46`)
+
+Kapal Terbang / Spirit Vessel:
+[Nama Kapal / Status Durability / Bahan Bakar Qi, atau "Tidak ada"] (`48`)
 
 Kebun Herbal / Tanaman:
-[Status Kebun]
+[Status Kebun] (`17`)
 
 Teknik & Kemampuan yang Dikuasai:
 [Daftar skill/teknik, sesuai Law Origin Log]
@@ -197,7 +206,7 @@ $$\text{Damage Akhir} = \left[(\text{Base Damage Senjata} + \text{Bonus Qi}) \ti
 | `01_WORLD_OVERVIEW_AND_CAPITAL.md` | Peta Kekaisaran Agung & Ibu Kota Huangji |
 | `02`–`10_*.md` | 9 Modul Wilayah Utama (Verdant Qi Plains, Thunder Crest, Crimson Blaze, Es Bintang, Bone Wasteland, Gurun Emas, Rawa Racun, Puncak Surgawi, Kepulauan Samudra) |
 | `11_CROSS_REGION_ORGANIZATIONS.md` | Organisasi Lintas Wilayah |
-| `12_CULTIVATION_LAW_SYSTEM.md` | 9 Ranah, Hukum Kultivasi, Physique, Tribulasi |
+| `12_CULTIVATION_LAW_SYSTEM.md` | 10 Ranah Universal, Hukum Kultivasi, Physique, Tribulasi |
 | `13_ECONOMY_SYSTEM.md` | Mata Uang Batu Spiritual & Harga Barang |
 | `14_VITALITY_HUNGER_SYSTEM.md` | HP, Luka, Stamina, & Satiety Kelaparan |
 | `15_COMBAT_SYSTEM.md` | Sistem Pertarungan Turn-Based & Elemen |
@@ -208,3 +217,10 @@ $$\text{Damage Akhir} = \left[(\text{Base Damage Senjata} + \text{Bonus Qi}) \ti
 | `20`–`32_*.md` | Modul Sekte & Perguruan Beladiri Individual |
 | `33`–`38_*.md` | Modul Organisasi Independen Individual |
 | `39`–`42_CUSTOM_*.md` | Modul Event & Konten Kustom |
+| `43_PAVILIUN_LELANG_SUCI_HUANGJI.md` | Jaringan Pelelangan Pusaka & Token VIP |
+| `44_SECRET_REALMS_AND_GROTTOES.md` | Realm Rahasia, Gua Purba & Batasan Ranah |
+| `45_NATAL_ARTIFACTS_AND_WEAPON_SPIRITS.md` | Artefak Kelahiran & Roh Senjata Jiwa |
+| `46_DUAL_CULTIVATION_AND_COMPANIONS.md` | Kultivasi Ganda, Affection 0-100 & Pasangan 10 Wilayah |
+| `47_HEART_DEVILS_AND_ADVANCED_TRIBULATIONS.md` | Ujian Iblis Hati & Tribulasi Surgawi Lanjutan |
+| `48_SPIRIT_VESSELS_AND_AIRSHIPS.md` | Kapal Terbang Spirit & Pertempuran Udara |
+| `49_WORLD_ENEMY_AND_IMMORTAL_TITLES.md` | Status Musuh Dunia, Red Star Mark & Gelar Kehormatan |

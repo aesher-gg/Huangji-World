@@ -57,18 +57,6 @@ Spesies ini dapat ditemukan di **hampir seluruh wilayah Benua Huangji** (hutan, 
 | **Kadal Lahar Karat** | 🦎 Elemental | Tier 4 (Golden C)| 1.450 | 230 | LV 4 | *Aura Api Kerak*: Membakar lawan saat diserang jarak dekat. | Sisik Lahar Karat, Core T3 |
 | **Elang Badai Petir Purba**| 🦅 Avian | Tier 5 (Nascent S)| 4.600 | 680 | LV 5 | *Sabetan Badai Petir*: Damage Elemen Petir AoE. | Bulu Elang Badai, Core T4 |
 | **Banteng Batu Dinding** | 🐂 Spirit Beast| Tier 5 (Nascent S)| 5.200 | 620 | LV 5 | *Tembok Batu Abadi*: Defense Murni +150. | Tanduk Banteng Batu, Core T4 |
-Spesies ini dapat ditemukan di **hampir seluruh wilayah Benua Huangji** (hutan, jalan desa, dan pegunungan umum):
-
-| Nama Spesies | Kategori | Tier (Ranah Setara) | HP | Atk Power | Taming Difficulty | Kemampuan Utama & Deskripsi | Drop Loot Utama |
-|---|:---:|:---:|:---:|:---:|:---:|---|---|
-| **Ayam Hutan Fana** | 🐺 Wild Beast | Tier 0 (Fana) | 25 | 4 | Sangat Mudah (LV 1) | Ayam liar pemakan serangga. Berisik saat terkejut. | Daging Ayam Fana (+10% Satiety), Bulu |
-| **Kelinci Padang Rumput** | 🐺 Wild Beast | Tier 0 (Fana) | 30 | 5 | Sangat Mudah (LV 1) | Lincah dan cepat masuk ke lubang tanah. | Daging Kelinci Fana (+10% Satiety) |
-| **Babi Hutan Taring Besi** | 🐺 Wild Beast | Tier 1 (Body Refining) | 90 | 18 | Mudah (LV 1) | *Serudukan Lurus*: Menyeruduk target dengan taring ganda. | Daging Babi Hutan (+25% Satiety), Taring Besi |
-| **Serigala Kelabu Liar** | 🐺 Wild Beast | Tier 1 (Body Refining) | 85 | 20 | Mudah (LV 1) | Berburu dalam kelompok (3–5 ekor). *Mencakar & Menggigit*. | Kulit Serigala Kasar, Daging Serigala |
-| **Ular Sawah Hijau** | 🐺 Wild Beast | Tier 1 (Body Refining) | 60 | 15 | Mudah (LV 1) | Bersembunyi di semak-semak. *Patukan Beracun Ringan*. | Kantong Empedu Ular, Kulit Ular |
-| **Elang Pengembara** | 🐺 Wild Beast | Tier 1 (Body Refining) | 75 | 16 | Mudah (LV 1) | Mengincar mangsa dari udara. *Sabetan Cakar Udara*. | Bulu Elang, Paruh Keras |
-| **Kera Hutan Cokelat** | 🐺 Wild Beast | Tier 1 (Body Refining) | 80 | 14 | Mudah (LV 1) | Melempar buah keras dan batu ke arah penyusup. | Kulit Kera, Buah Hutan |
-| **Gagak Malam Berbintang**| 🐺 Wild Beast | Tier 1 (Body Refining) | 50 | 12 | Mudah (LV 1) | Terbang saat malam hari. *Kekek Gelisah* (Gagal Stealth).| Bulu Gagak Hitam |
 
 ---
 
